@@ -1,0 +1,39 @@
+.work
+    width: 100vw
+    height: 100vh
+    position: absolute
+    top: 0
+    background-color: white
+    z-index: 10
+    border-top: $border
+    +flexbox(flex-start,none,row)
+    .workLeft
+        flex: 6
+        .workMain
+            padding: 8% 12%
+            
+            h1
+                margin-bottom: 10px
+            h2
+                padding-bottom: 10px
+                border-bottom: $border
+                margin-bottom: 30px
+            p
+                text-align: justify
+                font-size: .9em
+                line-height: 2em
+            .workAuthor
+                padding: 8% 0
+                +flexbox(flex-end,center,row)
+
+    .workRight
+        height: 100vh
+        background-color: grey
+        img
+            height: 100vh
+
+
+
+.BackBtn
+    padding: 3% 5%
+    button

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,500,600,700,900|Alata&display=swap');
+*
+    font-family: 'Alata', 'Noto Serif TC', sans-serif
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+//variables
+$border: solid 1px black
+$mainPadding: 5% 10%
+
+//mixin
+@mixin flexbox($jc,$ai,$fd:row)
+    display: flex
+    justify-content: $jc
+    align-items: $ai
+    flex-direction: $fd
+
+@mixin contentText
+    font-size: .9em
+    font-weight: 500
+    letter-spacing: .15em

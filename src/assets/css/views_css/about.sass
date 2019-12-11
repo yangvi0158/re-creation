@@ -1,0 +1,39 @@
+.about
+    width: 100%
+    border-top: $border
+    .aboutTop
+        width: 100%
+        +flexbox(space-between,center,row)
+        padding: $mainPadding
+        .about-card
+            .about-card-top
+                border-bottom: $border
+                font-weight: 600
+                +flexbox(flex-start,center)
+                .about-card-left
+                    margin-right: 30px
+                    p
+                        font-size: 1.5em
+                        letter-spacing: .2em
+                .about-card-right
+                    font-size: 1.3em
+                    letter-spacing: .2em
+            .aboutTop-card-bottom
+                margin-top: 10px
+                color: grey
+                font-size: .9em
+                letter-spacing: .2em
+                
+                p
+                    font-weight: 600
+    .aboutBottom
+        width: 100%
+        padding: $mainPadding
+        //border: $border
+        background-color: #fff
+        h1
+            margin-bottom: 10px
+        h2
+            margin-bottom: 50px
+        p
+            +contentText
