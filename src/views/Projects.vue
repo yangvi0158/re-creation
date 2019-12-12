@@ -2,7 +2,7 @@
   <div class="projects">
     <div class="project-category">
       <h6>01</h6>
-      <h1>壤壤之間</h1>
+      <h1>人人之間</h1>
       <p>以當地特色為發想，融合巧思重新再組織，成為文化新風貌</p>
       <ul class="project-team">
         <button @click="openProject">OPEN</button>
@@ -15,7 +15,7 @@
 
     <div class="project-category">
       <h6>02</h6>
-      <h1>壤壤之間</h1>
+      <h1>日日之間</h1>
       <p>以當地特色為發想，融合巧思重新再組織，成為文化新風貌</p>
       <ul class="project-team">
         <li></li>
@@ -28,7 +28,7 @@
 
     <div class="project-category">
       <h6>03</h6>
-      <h1>壤壤之間</h1>
+      <h1>屮屮之間</h1>
       <p>以當地特色為發想，融合巧思重新再組織，成為文化新風貌</p>
       <ul class="project-team">
         <li></li>

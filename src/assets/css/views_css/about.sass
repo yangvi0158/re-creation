@@ -6,9 +6,21 @@
         +flexbox(space-between,center,row)
         padding: $mainPadding
         .about-card
+            width: 30%
+            position: relative
+            img
+                width: 120px
+                position: absolute
+                right: 0
+                top: 50%
+                transform: rotate(-45deg) translateY(-50%)
+                z-index: 1
             .about-card-top
+                position: relative
+                z-index: 2
                 border-bottom: $border
                 font-weight: 600
+                padding-bottom: 15px
                 +flexbox(flex-start,center)
                 .about-card-left
                     margin-right: 30px
@@ -17,15 +29,16 @@
                         letter-spacing: .2em
                 .about-card-right
                     font-size: 1.3em
+                    font-weight: 700
                     letter-spacing: .2em
             .aboutTop-card-bottom
                 margin-top: 10px
                 color: grey
                 font-size: .9em
-                letter-spacing: .2em
+                font-weight: 600
                 
                 p
-                    font-weight: 600
+                    
     .aboutBottom
         width: 100%
         padding: $mainPadding
@@ -37,3 +50,4 @@
             margin-bottom: 50px
         p
             +contentText
+            text-align: justify

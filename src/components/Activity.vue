@@ -35,6 +35,10 @@ export default {
   name: 'activity',
   props: {
   },
+  data () {
+    return {
+    }
+  },
   methods: {
     closeActivity () {
       this.$emit('close-activity')
