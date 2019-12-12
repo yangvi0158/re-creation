@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <background></background>
+
     <div class="nav">
       <div class="navLeft">
         <router-link to="/">首頁</router-link>
@@ -24,3 +26,12 @@
 <style lang="sass">
 @import "./assets/css/all";
 </style>
+
+<script>
+import background from './components/vfx/background/background.vue'
+export default {
+  components: {
+    background
+  }
+}
+</script>
