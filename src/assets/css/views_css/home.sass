@@ -1,0 +1,24 @@
+.home
+    width: 100%
+    height: calc( 100vh - 80px )
+    over-flow: hidden
+    .keyvision
+        width: 100%
+        +flexbox(center,center,row)
+        img
+            height: 80vh
+    .exhibition_info
+        position: absolute
+        bottom: 30px
+        left: 2%
+        +contentText
+        font-weight: 600
+        color: grey
+        +flexbox(center,center,row)
+        .info
+            padding: 0 20px
+            &.info-left
+                border-right: $border
+                border-color: grey
+            span
+                letter-spacing: .22em

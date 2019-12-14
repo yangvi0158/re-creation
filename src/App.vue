@@ -4,13 +4,14 @@
 
     <div class="nav">
       <div class="navLeft">
-        <router-link to="/">首頁</router-link>
+        <router-link to="/"><img src="@/assets/img/logo.png"></router-link>
       </div>
       <ul class="navRight">
-        <router-link to="/about"><li class="navBtn">展覽簡介</li></router-link>
-        <router-link to="/projects"><li class="navBtn">作品介紹</li></router-link>
-        <router-link to="/activities"><li class="navBtn">展覽活動</li></router-link>
-        <a href="#" class="navFBbtn"><li class="navBtn">FB</li></a>
+        <router-link to="/about"><li class="navBtn" :class="{'nowPage':this.$route.name == 'about'}">展覽簡介</li></router-link>
+        <router-link to="/projects"><li class="navBtn" :class="{'nowPage':this.$route.name == 'projects'}">作品介紹</li></router-link>
+        <router-link to="/activities"><li class="navBtn" :class="{'nowPage':this.$route.name == 'activities'}">展覽活動</li></router-link>
+        <a href="https://www.facebook.com/105NTUTCVD/?eid=ARAc82iapLa3rWM9uFje3dLl2bBQFDtZq8h8c_4nqTLKJMg_5PBpFHfwcvTuH1lKCeatvp-N8WYpZlj6"
+        target="_blank" class="navFBbtn"><li class="navBtn">FB</li></a>
       </ul>
       <div class="navRight-mobile">
         <span></span>
@@ -32,6 +33,10 @@ import background from './components/vfx/background/background.vue'
 export default {
   components: {
     background
+  },
+  data () {
+    return {
+    }
   }
 }
 </script>

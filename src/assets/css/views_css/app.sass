@@ -18,14 +18,25 @@ body
             height: 80px
             +contentText
             .navLeft
+                img
+                    width: 35px
+                    transition: .2s   
+                    &:hover
+                        transform: scale(1.1)
+                         
             .navRight
                 +flexbox(center,center,row)
                 .navBtn
                     margin-right: 30px
-                    color: black
                     list-style: none
+                    color: grey
+                    &:hover
+                        color: black
                 a
                     text-decoration: none
                     
             .navRight-mobile
                 display: none
+
+.nowPage
+    color: black !important
