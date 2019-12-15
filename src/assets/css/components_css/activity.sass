@@ -16,19 +16,85 @@
         .activity-mainTop
             border-bottom: $border
             margin-bottom: 30px
+            padding-bottom: 20px
+            +flexbox(space-betwween,flex-start,row)
             .activity-mainTop-left
+                flex: 8
                 h1
                     letter-spacing: .3em
+                    font-weight: 800
+                    font-size: 2.5em
                 h2
                     letter-spacing: .2em
-                .activity-date_mobile
-                .activity-title-detail
-                    .activity-detail-time
+                    font-weight: 800
+                .activity-detail_mobile
+                    display: none
+                .activity-detail-desktop
+                    +contentText
+                    font-weight: 600
+                    margin-top: 15px
+                    img 
+                        width: 12px
+                        margin-right: 10px
+                    +flexbox(none,center,row)
+                    & > div
+                        margin-right: 20px
             .activity-date_desktop
+                flex: 1.8
+                img
+                    width: 100%
         .activity-mainBottom
+            height: 100%
             p
                 +contentText
             .activity-mainBottom-picture
                 .mainBottom-picture_desktop
+                    position: absolute
+
+                    bottom: 70px
+                    +flexbox(none,center,row)
+                    .picture
+                        margin-right: 20px
+                        +flexbox(center,center,column)
+                        +contentText
+                        color: grey
+                        font-size: .8em
+                        img
+                            width: 50px
+                            border-radius: 50%
+                            margin-bottom: 10px
+
                 .mainBottom-picture_mobile
+                    display: none
+
+    .bigpicture_desktop
+        position: fixed
+        z-index: 10
+        width: 100vw
+        height: 100vh
+        +flexbox(center,center,row)
+        .bigpicture-background
+            z-index: -1
+            position: fixed
+            width: 100vw
+            height: 100vh
+            background-color: #ffbfbf
+            opacity: .95
+        img
+            width: 50%
+            //border-radius: 10px
+        .cross
+            width: 50px
+            position: absolute
+            right: 20px
+            top: 20px
     .activity-goBtn
+        z-index: -1
+        position: fixed
+        width: 300px
+        height: 300px
+        background-color: white
+        opacity: .5
+        border-radius: 50%
+        bottom: -100px
+        right: -10px
