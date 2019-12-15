@@ -32,6 +32,10 @@ body
                     color: grey
                     &:hover
                         color: black
+                    img
+                        opacity: .5
+                        &:hover
+                            opacity: 1
                 a
                     text-decoration: none
                     
@@ -40,3 +44,14 @@ body
 
 .nowPage
     color: black !important
+
+.slide-enter
+  transform: translateX(-10px)
+  opacity: 0
+
+.slide-leave-to
+  transform: translateX(10px)
+  opacity: 0
+
+.slide-enter-active, .slide-leave-active
+  transition: all .5s

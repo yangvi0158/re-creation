@@ -32,7 +32,7 @@
             </p>
             <div class="activity-mainBottom-picture">
                 <div class="mainBottom-picture_desktop">
-                  <div class="picture">
+                  <div class="picture" @click="showPicture()">
                     <img src="@/assets/img/activities/activity/speaker1/speak1_s3.jpg">
                     介紹收藏
                   </div>
@@ -45,27 +45,37 @@
             </div>
         </div>
     </div>
-    <div class="bigpicture_desktop">
-      <div class="bigpicture-background"></div>
-      <img class="cross" src="@/assets/img/activities/activity/cross.png">
+    <div class="bigpicture_desktop" v-if="showbigPicture === true">
+      <div class="bigpicture-background" @click="showbigPicture = false"></div>
+      <img class="cross" src="@/assets/img/activities/activity/cross.png" @click="showbigPicture = false">
       <img src="@/assets/img/activities/activity/speaker1/speak1_l3.jpg">
     </div>
-    <div class="activity-goBtn"></div>
+    <div class="activity-goBtn">
+      <ball></ball>
+    </div>
   </div>
 </template>
 <script>
+import ball from '@/components/vfx/keyvision/keyvision.vue'
 export default {
   name: 'activity',
+  components: {
+    ball
+  },
   props: {
   },
   data () {
     return {
+      showbigPicture: false
     }
   },
   methods: {
     closeActivity () {
       this.$emit('close-activity')
       console.log('close!')
+    },
+    showPicture () {
+      this.showbigPicture = true
     }
   }
 }
