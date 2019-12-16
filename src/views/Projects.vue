@@ -51,11 +51,12 @@
         <li></li>
       </ul>
     </div>
-    <Work v-show="showProject" @close-product="showProject = false"/>
+    <Work v-show="showProject" @close-project="showProject = false"/>
   </div>
 </template>
 
 <script>
+import axios from 'axios'
 import Work from '@/components/Work.vue'
 export default {
   name: 'projects',
@@ -71,6 +72,13 @@ export default {
     openProject () {
       this.showProject = true
     }
+  },
+  mounted () {
+    axios.get('js/projects.json').then(res => {
+      console.log(res.data)
+    }).catch(err => {
+      console.log(err, '失敗')
+    })
   }
 }
 </script>

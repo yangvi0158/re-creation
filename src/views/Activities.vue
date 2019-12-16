@@ -7,7 +7,7 @@
           <h4>文創講座</h4>
         </div>
       </div>
-      <div class="activity-card" @click="openActivity">
+      <div class="activity-card topcard" @click="openActivity(0)">
         <div class="activity-card-top">
           <div class="activity-card-top-left">
             <p>14:00-15:30</p>
@@ -27,7 +27,7 @@
           <h3>Ushow<br>LEE</h3>
         </div>
       </div>
-      <div class="activity-card" @click="openActivity">
+      <div class="activity-card topcard" @click="openActivity(1)">
         <div class="activity-card-top">
           <div class="activity-card-top-left">
             <p>14:00-15:30</p>
@@ -47,7 +47,7 @@
           <h3>林太崴</h3>
         </div>
       </div>
-      <div class="activity-card" @click="openActivity">
+      <div class="activity-card topcard" @click="openActivity(2)">
         <div class="activity-card-top">
           <div class="activity-card-top-left">
             <p>14:00-15:30</p>
@@ -75,7 +75,7 @@
           <h4>手作工坊</h4>
         </div>
       </div>
-      <div class="activity-card" @click="openActivity">
+      <div class="activity-card" @click="openActivity(3)">
         <div class="activity-card-top">
           <div class="activity-card-top-left">
             <p>16:00-17:30</p>
@@ -96,7 +96,7 @@
         </div>
       </div>
 
-      <div class="activity-card" @click="openActivity">
+      <div class="activity-card" @click="openActivity(4)">
         <div class="activity-card-top">
           <div class="activity-card-top-left">
             <p>16:00-17:30</p>
@@ -119,7 +119,7 @@
 
     </div>
     <div class="activity-Bottom"></div>
-    <Activity v-show="showActivity" @close-activity="showActivity = false"/>
+    <Activity :activity-number="activityNumber" v-show="showActivity" @close-activity="showActivity = false"/>
   </div>
 </template>
 
@@ -133,12 +133,14 @@ export default {
   },
   data () {
     return {
-      showActivity: false
+      showActivity: false,
+      activityNumber: ''
     }
   },
   methods: {
-    openActivity () {
+    openActivity (num) {
       this.showActivity = true
+      this.activityNumber = num
     }
   },
   mounted () {

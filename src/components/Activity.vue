@@ -6,39 +6,34 @@
     <div class="activity-main">
         <div class="activity-mainTop">
             <div class="activity-mainTop-left">
-                <h1>清香純純</h1>
-                <h2>手繪1930年代台灣第一女歌手</h2>
+                <h1>{{ lectureData[activityNumber].lecture }}</h1>
+                <h2>{{ lectureData[activityNumber].subtitle }}</h2>
                 <div class="activity-detail_mobile"></div>
                 <div class="activity-detail-desktop">
                     <div class="activity-detail-time">
-                      <img src="@/assets/img/activities/dot.png">16:00-17:30
+                      <img src="@/assets/img/activities/dot.png">{{ lectureData[activityNumber].detail.time }}
                     </div>
                     <div class="activity-detail-place">
                       <img src="@/assets/img/activities/dot.png">剝皮寮歷史街區 13號展間
                     </div>
                     <div class="activity-detail-speaker">
-                      <img src="@/assets/img/activities/dot.png">老師_黃郁婷/手繪漫畫師
+                      <img src="@/assets/img/activities/dot.png">{{ lectureData[activityNumber].detail.speaker_info }}
                     </div>
                 </div>
             </div>
             <div class="activity-date_desktop">
-              <img src="@/assets/img/activities/bigdate18.png">
+              <img :src="lectureData[activityNumber].dateUrl">
             </div>
         </div>
         <div class="activity-mainBottom">
             <p>
-                手繪明信片書籤，教大家如何運用身邊最簡單的水性色鉛筆，畫出最專業的漫畫風色彩，
-                讓大家學習如何調色與配色，也讓大家可以動手DIY。
+                {{ lectureData[activityNumber].description }}
             </p>
             <div class="activity-mainBottom-picture">
                 <div class="mainBottom-picture_desktop">
-                  <div class="picture" @click="showPicture()">
-                    <img src="@/assets/img/activities/activity/speaker1/speak1_s3.jpg">
-                    介紹收藏
-                  </div>
-                  <div class="picture">
-                    <img src="@/assets/img/activities/activity/speaker1/speak1_s3.jpg">
-                    介紹收藏
+                  <div class="picture" @click="showPicture(item.bigPhoto_url)" v-for="(item) in lectureData[activityNumber].photo" :key="item.photo_description">
+                    <img :src="item.smallPhoto_url">
+                    {{item.photo_description}}
                   </div>
                 </div>
                 <div class="mainBottom-picture_mobile"></div>
@@ -47,8 +42,8 @@
     </div>
     <div class="bigpicture_desktop" v-if="showbigPicture === true">
       <div class="bigpicture-background" @click="showbigPicture = false"></div>
-      <img class="cross" src="@/assets/img/activities/activity/cross.png" @click="showbigPicture = false">
-      <img src="@/assets/img/activities/activity/speaker1/speak1_l3.jpg">
+      <img class="cross" src="@/assets/img/activities/cross.png" @click="showbigPicture = false">
+      <img :src="bigUrl">
     </div>
     <div class="activity-goBtn">
       <ball></ball>
@@ -56,6 +51,7 @@
   </div>
 </template>
 <script>
+import axios from 'axios'
 import ball from '@/components/vfx/keyvision/keyvision.vue'
 export default {
   name: 'activity',
@@ -63,10 +59,13 @@ export default {
     ball
   },
   props: {
+    activityNumber: Number
   },
   data () {
     return {
-      showbigPicture: false
+      showbigPicture: false,
+      lectureData: [],
+      bigUrl: ''
     }
   },
   methods: {
@@ -74,9 +73,19 @@ export default {
       this.$emit('close-activity')
       console.log('close!')
     },
-    showPicture () {
+    showPicture (url) {
       this.showbigPicture = true
+      this.bigUrl = url
     }
+  },
+  created () {
+    let vm = this
+    axios.get('js/activities.json').then(res => {
+      vm.lectureData = res.data
+      console.log(this.lectureData)
+    }).catch(err => {
+      console.log(err, '失敗')
+    })
   }
 }
 </script>

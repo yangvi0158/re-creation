@@ -27,16 +27,32 @@
   </div>
 </template>
 <script>
+import axios from 'axios'
 export default {
   name: 'work',
   props: {
     msg: String
   },
+  data () {
+    return {
+      workData: []
+    }
+  },
   methods: {
     closeProject () {
-      this.$emit('close-product')
+      this.$emit('close-project')
       console.log('close!')
     }
+  },
+  created () {
+    let vm = this
+    axios.get('js/projects.json').then(res => {
+      vm.lworkData = res.data
+      console.log(vm.workData)
+      console.log('vm.workData')
+    }).catch(err => {
+      console.log(err, '失敗')
+    })
   }
 }
 </script>

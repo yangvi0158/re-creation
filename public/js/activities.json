@@ -1,15 +1,166 @@
 [
     {
-        "name": "Tom",
-        "lastname": "Chen",
-        "report": [
+        "lecture": "Show Time",
+        "subtitle": "談新時代的文化推廣與包裝行銷",
+        "speaker": "Ushow LEE",
+        "detail": {
+            "date": "2020.01.17",
+            "time": "14:00-15:30",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "李依婷/90後台灣新銳導演"
+        },
+        "dateUrl": "./img/activity/bigdate17.png",
+        "description": "憑藉著豐富的影像創作經驗和敏銳的市場預判能力，利用對流行文化的掌握，將專業與創新兩相互結合，帶領團隊打造多部優質的動畫作品，讓影像透過網路行銷，宣傳到世界各地。",
+        "photo": [
             {
-                "subject": "Math",
-                "score": 80
+                "photo_description": "工作照",
+                "smallPhoto_url": "./img/activity/speaker1/speak1_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker1/speak1_l1.jpg"
             },
             {
-                "subject": "English",
-                "score": 90
+                "photo_description": "展覽活動",
+                "smallPhoto_url": "./img/activity/speaker1/speak1_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker1/speak1_l2.jpg"
+            }
+        ]
+    },
+    {
+        "lecture": "耳朵的喇叭褲",
+        "subtitle": "重新詮釋舊時代的老物件",
+        "speaker": "林太崴",
+        "detail": {
+            "date": "2020.01.18",
+            "time": "14:00-15:30",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "林太崴/蟲膠唱片達人與收藏家"
+        },
+        "dateUrl": "./img/activity/bigdate18.png",
+        "description": "為什麼老舊的黑膠唱片會再度回到人們耳邊？它們又是以什麼樣的面貌重新被展示？在新與舊，舊與新來回擺盪的鐘擺間，舊時代的老物件如何穿上重新被摩登化的符碼而復活。",
+        "photo": [
+            {
+                "photo_description": "活動合照",
+                "smallPhoto_url": "./img/activity/speaker2/speak2_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker2/speak2_l1.jpg"
+            },
+            {
+                "photo_description": "節目受訪1",
+                "smallPhoto_url": "./img/activity/speaker2/speak2_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker2/speak2_l2.jpg"
+            },
+            {
+                "photo_description": "節目受訪2",
+                "smallPhoto_url": "./img/activity/speaker2/speak2_s3.jpg",
+                "bigPhoto_url": "./img/activity/speaker2/speak2_l3.jpg"
+            }
+        ]
+    },
+    {
+        "lecture": "文化銀行",
+        "subtitle": "寫下島嶼的文化篇章",
+        "speaker": "邵璦婷",
+        "detail": {
+            "date": "2020.01.19",
+            "time": "14:00-15:30",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "邵璦婷/文化銀行的創辦人"
+        },
+        "dateUrl": "./img/activity/bigdate19.png",
+        "description": "歡迎來到臺灣的第一間文化銀行，這裡存有不想被遺忘的記憶，以及不甘於被留下的文化標本。",
+        "photo": [
+            {
+                "photo_description": "展覽活動",
+                "smallPhoto_url": "./img/activity/speaker3/speak3_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker3/speak3_l1.jpg"
+            },
+            {
+                "photo_description": "TED演講照",
+                "smallPhoto_url": "./img/activity/speaker3/speak3_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker3/speak3_l2.jpg"
+            }
+        ]
+    },
+    {
+        "lecture": "清香純純",
+        "subtitle": "手繪1930年代臺灣第一女歌手",
+        "speaker": "黃郁婷",
+        "detail": {
+            "date": "2020.01.18",
+            "time": "16:00-17:30",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "黃郁婷/插畫家"
+        },
+        "dateUrl": "./img/activity/bigdate18.png",
+        "description": "手繪明信片和書籤，教大家如何用身邊最簡單的水性色鉛筆，畫出最專業的漫畫風色彩，讓大家學習如何調色與配色，也讓大家可以動手DIY。",
+        "photo": [
+            {
+                "photo_description": "鄧雨賢與陳君玉",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l1.jpg"
+            },
+            {
+                "photo_description": "四月望雨",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l2.jpg"
+            },
+            {
+                "photo_description": "蘋果塔插畫",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s3.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l3.jpg"
+            },
+            {
+                "photo_description": "芒果蛋糕插畫",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s4.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l4.jpg"
+            },
+            {
+                "photo_description": "悠閒時刻",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s5.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l5.jpg"
+            },
+            {
+                "photo_description": "甜點插畫",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s6.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l6.jpg"
+            }
+        ]
+    },
+    {
+        "lecture": "金迷",
+        "subtitle": "傳統廟宇彩繪技法-安金",
+        "speaker": "周孟勳",
+        "detail": {
+            "date": "2020.01.19",
+            "time": "16:00-17:30",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "周孟勳/一個做傳統彩繪的人"
+        },
+        "dateUrl": "./img/activity/bigdate19.png",
+        "description": "安金的技法在台灣常用於彩繪、寺廟雕刻上。製作上，先在作品表面塗上膠油，待膠油即將全乾之際再貼上金箔紙，並用毛刷輕壓以固定、刷磨亮金箔。藉以讓民眾在一個半小時內就能體驗傳統彩繪技法，還可以帶自己的作品回家紀念。",
+        "photo": [
+            {
+                "photo_description": "傳統彩繪1",
+                "smallPhoto_url": "./img/activity/speaker5/speak5_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker5/speak5_l1.jpg"
+            },
+            {
+                "photo_description": "傳統彩繪2",
+                "smallPhoto_url": "./img/activity/speaker5/speak5_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker5/speak5_l2.jpg"
+            },
+            {
+                "photo_description": "傳統彩繪3",
+                "smallPhoto_url": "./img/activity/speaker5/speak5_s3.jpg",
+                "bigPhoto_url": "./img/activity/speaker5/speak5_l3.jpg"
+            },
+            {
+                "photo_description": "傳統彩繪4",
+                "smallPhoto_url": "./img/activity/speaker5/speak5_s4.jpg",
+                "bigPhoto_url": "./img/activity/speaker5/speak5_l4.jpg"
+            },
+            {
+                "photo_description": "傳統彩繪5",
+                "smallPhoto_url": "./img/activity/speaker5/speak5_s5.jpg",
+                "bigPhoto_url": "./img/activity/speaker5/speak5_l5.jpg"
             }
         ]
     }

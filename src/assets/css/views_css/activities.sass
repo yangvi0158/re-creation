@@ -2,29 +2,30 @@
     width: 100%
     border-top: $border
     over-flow: hidden
+    +flexbox(center,center,column)
     .activity-Top,.activity-Bottom
         width: 100%
         +flexbox(flex-start,center,row)
         border-bottom: $border
-        
-        .activity-title
-            width: 200px
-            +flexbox(center,center,column)
-            div
-            h1
-                margin-bottom: 10px
-                letter-spacing: .15em
-            h4
-                +contentText
-                color: grey
-                font-weight: 700
+    .activity-title
+        width: 200px
+        +flexbox(center,center,column)
+        div
+        h1
+            margin-bottom: 10px
+            letter-spacing: .15em
+        h4
+            +contentText
+            color: grey
+            font-weight: 700
+
     .activity-card
         flex: 3
         border-left: $border   
         cursor: pointer
         position: relative
         padding: 0
-        height: calc( (100vh - 80px)/2 )
+        height: calc( (100vh - 10px)/2 )
         .activity-card-top
             padding: 5%
             z-index: 3
@@ -64,5 +65,9 @@
                 z-index: 1
                 bottom: 1px
                 left: 0
+                &:hover
+                    filter: grayscale(.8)
+    .topcard
+        height: calc( (100vh - 150px)/2 )
 .activity-Bottom
     border-bottom: none !important
