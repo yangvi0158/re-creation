@@ -3,6 +3,7 @@
 
 uniform vec2 iResolution;
 uniform float iTime;
+uniform float complete;
 uniform vec3 p1;
 uniform vec3 p2;
 
@@ -18,7 +19,7 @@ float wave(vec3 p){
     float a = 1.0;
     float w = 1.0;
     float max = 0.0;
-    for(int i=0;i<4;i++){
+    for(int i=0;i<3;i++){
         float fi = float(i)*2.32;
         vec3 k = normalize(vec3(sin(fi), cos(fi),cos(fi*2.+1.2)))*(w*0.02+1.0);
         y+=a*sin(2.0*pi*w*iTime+dot(p, k));
@@ -51,6 +52,7 @@ vec2 transform(vec2 p){
 float heightMap(vec2 p){
     
     float h = (1.5-dot(p,p))/3.0;
+    h-=(1.0-complete);
     h+=sin(wave(vec3(p,h)*7.))*0.04;
 
     
@@ -102,7 +104,7 @@ void main() {
         vec3(0, 1, dy)
     ));
 
-    vec3 color = vec3(normalMap(normal)) + (texture2D(noise, gl_FragCoord.xy/iResolution+height*0.1).rgb-0.5);
+    vec3 color = vec3(normalMap(normal)) +0.6 * (texture2D(noise, (gl_FragCoord.xy/iResolution-0.5)*(1.0-height*0.3)+0.5).rgb-0.5);
     color*=ball;
     // color = normal*ball;
     gl_FragColor = vec4(color,ball);

@@ -38,9 +38,10 @@ export default {
 
 .vfx-keyvision_ball {
   position: relative;
-  width: 800px;
-  height: 800px;
-  left: -70px;
-  top: -50px;
+  width: 68.72%;
+  height: 101.5%;
+  transform:translate(-8.75%,-6.25%);
+  left: 0;
+  top: 0;
 }
 </style>
