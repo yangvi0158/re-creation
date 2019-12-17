@@ -22,9 +22,15 @@
                 text-align: justify
                 font-size: .9em
                 line-height: 2em
+                +contentText
             .workAuthor
                 padding: 8% 0
                 +flexbox(flex-end,center,row)
+                .author
+                    +contentText
+                    img
+                        border-radius: 50%
+                        width: 50px
 
     .workRight
         height: 100vh

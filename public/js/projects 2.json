@@ -1,0 +1,906 @@
+[
+    {
+        "gallery1": [
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work1",
+                "title": "鐵食新嚐",
+                "projectInfo": "結合時下很紅的鐵路便當，並且在造型上設計成「扇形車庫」，菜單上面也著重在於彰化特色美食，讓人可以在視覺及味覺上享有文化饗宴，重要的是可以利用這樣的文化創意商品去宣達「台鐵宿舍村」的重要性，讓更多人知道過去的台鐵文化，讓大家更了解彰化台鐵宿舍村，透過多元的文化產業結合，賦予不同的新生命，帶來新生機。",
+                "author": [
+                    {
+                        "name": "黃泓偉",
+                        "email": "b90073@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "葉芳珉",
+                        "email": "a0936199702@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work2",
+                "title": "信義今昔",
+                "subtitle": "產業與地景變遷的故事",
+                "projectInfo": "信義區，一個位於台北市而年紀最輕的行政區。信義區為何從松山區劃分出來？為何命名為“信義”？三十年前還未存在的101大樓、世貿、豪宅的信義區，曾經這片佈滿稻田、水圳、池塘的景象，是現今難以想像的。這本微型地方誌，穿越到信義區這個名詞還未出現的年代，帶領著大家認識這片土地的小歷史、小故事、小驚喜。透過一本「地方誌」、一張「產業地圖」，讓更多人瞭解信義區的古往今昔。",
+                "author": [
+                    {
+                        "name": "林禹蓁",
+                        "email": "lyuzhen2019@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work3",
+                "title": "一大川堂",
+                "subtitle": "建築造型探析及其詮釋轉化",
+                "projectInfo": "一大川堂為國立臺北科技大學（原臺北州立臺北工業學校）校內僅存少數日治時期建物，該校為孕育臺灣早期工業技術人才之搖籃，本建物亦為學生活動場所及記憶所在，深具保存校內共同記憶之歷史文化價值。藉此，本專題由迴廊的八角RC柱發想，設計八角筆套，創造再利用價值，使北科與一大川堂的關聯生生不息。",
+                "author": [
+                    {
+                        "name": "蘇紹文",
+                        "email": "da0228312@gmail.com"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work4",
+                "title": "欸！你家住哪？",
+                "projectInfo": "以台北市大直為主題，運用聲音與路徑介紹在地的歷史。",
+                "author": [
+                    {
+                        "name": "陳沐昭",
+                        "email": "heman20307@gmail.com"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work5",
+                "title": "遊戲製作",
+                "projectInfo": "這是一款用來讓大家理解過去的製茶方法，以及在過程中忽然冒出來的一些小故事的遊戲。",
+                "author": [
+                    {
+                        "name": "邱冠達",
+                        "email": "shadowkitune@gmail.com"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work6",
+                "title": "廟繪屏現",
+                "projectInfo": "以四扇曲屏為作品呈現，日式的屏風樣式搭配中式的博古花卉為彩繪內容，用廟宇彩繪的材料與技法施作，凸顯傳統感的對比效果以及非主流的混色效果，使觀者看見廟宇彩繪的不同樣貌，並且在感受傳統藝術之美的同時，也可以認識到廟宇彩繪的獨特性。",
+                "author": [
+                    {
+                        "name": "穆思妍",
+                        "email": "amy22908@gmail.com"
+                    },
+                    {
+                        "name": "周怡萱",
+                        "email": "wendy30830@yahoo.com.tw"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work7",
+                "title": "獵奇",
+                "projectInfo": "將蘭花運用在生活綠化中，認識台灣豐富的蘭科植物；蘭花自古就擁有豐富的歷史背景，而台灣的海島型氣候孕育了多樣化的蘭科植物，透過將蘭花運用在生活當中，使人們了解到蘭花的歷史與生態。",
+                "author": [
+                    {
+                        "name": "李毓杰",
+                        "email": "a87261536@gmail.com"
+                    },
+                    {
+                        "name": "陳致維",
+                        "email": "log316543@gmail.com "
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work8",
+                "title": "澎蘭心動",
+                "subtitle": "澎湖繪本觀光旅遊",
+                "projectInfo": "這是一本觀光型的繪本，主要是讓觀者帶著旅遊，繪本透過內容來和大家做互動，並且融合多個當地具有特色的傳說故事，以不同的角度來遊玩澎湖，透過此繪本來讓大家對於澎湖的傳說故事更加認識。",
+                "author": [
+                    {
+                        "name": "盧佳宜",
+                        "email": "z9981171@gmail.com"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work9",
+                "title": "虎虎聲風",
+                "projectInfo": "秉持韓國傳統文化的理念，結合韓國傳統圖樣，與現代化的音響，創造出新舊融合的意象。",
+                "author": [
+                    {
+                        "name": "董禮芫",
+                        "email": "yewon971203@gmail.com"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work10",
+                "title": "好客小吃部",
+                "projectInfo": "歡迎來到好客小吃部。本店所販賣的是卡牌式桌遊，內容在介紹各式客家美食，當中包含三款遊戲，每種都簡單好上手，讓五歲以上的大人小孩能開心同樂，屬於派對型桌遊。還能當作客語教具，裡面每道美食都有標註客語發音，並額外追加八句日常客語會話，只要讀取QR Code就能播放朗讀音檔，讓大家在玩樂的同時學習客家語！",
+                "author": [
+                    {
+                        "name": "朱元儀",
+                        "email": "smilerinna5215641@gmail.com",
+                        "website": "https://www.facebook.com/HakkaRestauranttt/"
+                    },
+                    {
+                        "name": "張景如",
+                        "email": "sisterjennysisterjenny@gmail.com",
+                        "website": "https://www.facebook.com/HakkaRestauranttt/"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work11",
+                "title": "找茶製藥廠",
+                "projectInfo": "我們將以寄藥包的外觀及形式，結合現代人所擁有的文明病，設計數款實用的帆布小包，裡面放入可舒緩上述等症狀的茶包，製作出趣味性的文創產品。透過富有創意的產品，新世代的民眾能夠認識到寄藥包文化，同時以此警惕民眾來改善這些文明病，讓產品在文創市場中，佔有特別的一席之地，並且讓大家一同回到50年代，重溫當時濃厚的鄉土人情味。",
+                "author": [
+                    {
+                        "name": "爐湘智",
+                        "email": "minnalulu0113@gmail.com"
+                    },
+                    {
+                        "name": "謝函芯",
+                        "email": "kkb860623@gmail.com"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            }
+        ],
+        "gallery2": [
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work12",
+                "title": "四時而曆",
+                "subtitle": "傳統文化數位化與再造",
+                "projectInfo": "看日子。現代的人看日子，或許是翻開行事曆，看看在忙碌的日子裡哪天有空，但是在過去，無論是搬家、喜事，甚至是見朋友，都要翻開一本農民曆，看看哪天是吉日。我們已經越來越少使用農民曆，但其卻映出了我們生活。在數位化的社會，人人一隻手機的情況下，也能像過去「擇日」，卻出現與眾不同的體驗。",
+                "author": [
+                    {
+                        "name": "林于平",
+                        "email": "sakurasake1998@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work13",
+                "title": "清清子衿",
+                "projectInfo": "以兩種小遊戲的方式，讓觀眾在趣味的遊戲中,對清朝的服飾與其制度有了基本的認識,並產生興趣。遊戲介紹如下：遊戲一，觀眾可以隨便抽取任一卡牌，玩家要根據卡牌的內容為相應階級身份的人性紙牌拼貼上對應的服飾。結束後，可參考解答書上的答案。遊戲二，玩家隨機抽取五張紙牌，根據牌面上的指數大小，分勝負。",
+                "author": [
+                    {
+                        "name": "邱子芸",
+                        "email": "tzuyun401@gmai..com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "黃維婷",
+                        "email": "weit96@hotmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work14",
+                "title": "立麗",
+                "projectInfo": "我們希望透過「立麗」來結合東西方的幸福元素，藉由食材的選用，賦予喜餅新的寓意，並保留部分較為重要的中國婚禮傳統，設計出符合此世代的外包裝與內容物，打造出能傳遞幸福，又不造成身體負擔的喜餅禮盒。",
+                "author": [
+                    {
+                        "name": "吳立慈",
+                        "email": "phyllis87221@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "黃麗樺",
+                        "email": "apple8386113@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work15",
+                "title": "浪愛有家",
+                "subtitle": "初探人類與流浪動物之關係與生命倫理推廣",
+                "projectInfo": "以對台灣流浪動物紀錄片的電影研究出發，通過銀幕上的動物影像，整合藝術與哲學等相關文獻，透過影像創作的方式，探討人類與動物，尤其是流浪動物觸發的生命倫理議題。研究成果以廣告短片、圖文介紹手冊等形式展出，並設計成教案實際於小學課程中實踐生命教育。期望可將尊重生命與動物保護之觀念，傳遞給更多人來共同思考。",
+                "author": [
+                    {
+                        "name": "謝采君",
+                        "email": "coco1114ya@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work16",
+                "title": "洛神腹",
+                "projectInfo": "洛神花應用模式與功能之初探。",
+                "author": [
+                    {
+                        "name": "許馨予",
+                        "email": "cynthia980622@yahoo.com.tw",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work17",
+                "title": "廟筆生風",
+                "projectInfo": "廟宇隨著時間推進，經歷了擴建以及整修，同時，廟宇所在的地區也因外來的文化影響下發生了變化，進而影響了廟宇的發展，形成各個地方不同的廟宇彩繪之風格。本創作旨在透過影音紀實之方式，紀錄下廟宇彩繪匠師技藝與彩繪之美，並於片中探尋著廟宇彩繪之重要性，期望能夠藉由本片讓大眾更加認識台灣民間廟宇彩繪之傳承意義。",
+                "author": [
+                    {
+                        "name": "葉淨慈",
+                        "email": "t105a50030@ntut.org.tw",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "王婷楨",
+                        "email": "jenny41404@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work18",
+                "title": "雅映黑體",
+                "projectInfo": "設計出能夠運用在印刷、排版及螢幕呈現的字型，更具備獨特性及美感，也希望能夠為台灣的字型產業盡一份心力。",
+                "author": [
+                    {
+                        "name": "林映辰",
+                        "email": "a61206121@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work19",
+                "title": "牽豬哥",
+                "subtitle": "KANDIGO",
+                "projectInfo": "在很久很久以前，有一個沙豬王國。王國裡面的公豬很會賺錢，買了豪華的豬舍、豬飼料以及豪華的豬豬奢侈品之後，卻發現自己還是孤零零的，沒有母豬相陪。於是，這一群寂寞的公豬們打開電視，轉到了傳說中的「豬豬情緣」頻道！豬豬情緣為了滿足公豬們各種癖好，網羅了各式各樣不同的母豬。玩家在遊戲中將扮演公豬們，朝成為最幸福的公豬方向邁進吧！在很久很久以前，有一個沙豬王國。王國裡面的公豬很會賺錢，買了豪華的豬舍、豬飼料以及豪華的豬豬奢侈品之後，卻發現自己還是孤零零的，沒有母豬相陪。於是，這一群寂寞的公豬們打開電視，轉到了傳說中的「豬豬情緣」頻道！豬豬情緣為了滿足公豬們各種癖好，網羅了各式各樣不同的母豬。玩家在遊戲中將扮演公豬們，朝成為最幸福的公豬方向邁進吧！",
+                "author": [
+                    {
+                        "name": "曾一修",
+                        "email": "ihsiu.tw@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work20",
+                "title": "泡泡麵",
+                "projectInfo": "將泡麵從食品轉化成一種特色造型，進而與針織淸潔布作連結，讓大家更了解台灣泡麵文化，並透過此商品轉化讓大眾欣賞其平面、包裝設計的美感和文化層面的價値，進一步思考自己與泡麵產生的記憶連結。",
+                "author": [
+                    {
+                        "name": "廖珮綺",
+                        "email": "cross87412@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work21",
+                "title": "貝克街221B",
+                "projectInfo": "喜歡偵探、喜歡福爾摩斯、喜歡推理、喜歡和大家一起玩、喜歡大家聚在一起，那就來玩吧！",
+                "author": [
+                    {
+                        "name": "張翔媛",
+                        "email": "yuann980423@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work22",
+                "title": "民間信仰的魂",
+                "subtitle": "探討死亡教育繪本時間與轉化",
+                "projectInfo": "希望藉由繪本的創作，利用圖畫表現出小女孩經歷父親死亡的視角，為台灣的兒童生命教育進行貢獻。試圖詮釋兒童對於死亡經驗的衝擊，從最初的驚訝、不了解到迷惘，進而釋懷，決定讓自己的生活繼續向前，其實是每個人必經的人生課題。在台灣我們時常忽略兒童在面對死亡時的感受，「小孩子不要問」，難道是我們所能做的最好教育方式嗎？",
+                "author": [
+                    {
+                        "name": "石佳欣",
+                        "email": "c6971012@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            }
+        ],
+        "gallery3": [
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work23",
+                "title": "器曰",
+                "subtitle": "台灣新世代器皿實踐計畫",
+                "projectInfo": "本研究以新世代年輕人的角度去開發盛裝文化好味道的器皿。希望在飲食全球化的浪潮下保留住在地味道，並且透過儀式化、精緻化的手法將好的器皿融入這世代人們的生活中，選用符合現代人心靈需求的材料陶瓷與金屬，以「手感」為出發點的工藝技法，讓傳統台式點心透過器皿營造出美好的飲食氛圍。",
+                "author": [
+                    {
+                        "name": "陳玟伶",
+                        "email": "chocolin0717@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "朱曼寧",
+                        "email": "manningchu@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work24",
+                "title": "慢慢佳溫",
+                "subtitle": "十二生肖禮盒",
+                "projectInfo": "將手工製造有溫度的皮革與金屬小物結合十二生肖特色裝進禮盒，成為一個送禮自用兩相宜的禮盒。",
+                "author": [
+                    {
+                        "name": "李佳韓",
+                        "email": "ay016216@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "鄭溫秀",
+                        "email": "bibididi86@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work25",
+                "title": "璋瓦祥瑞",
+                "subtitle": "材質運用於商品設計研究—以臺灣文房四寶設計為例",
+                "projectInfo": "作品目的在於探討臺灣材料於文化創意產品之設計運用，研究地方材質特性與材料本身對於使用者的溫度感受，透過材料設計於文房四寶，呈現臺灣文化性，重新定義地方材料特色與材質設計感知，創作出具臺灣本土內涵性、美觀性、機能性之新文化創意產品，以傳統圖像重新設計創作新臺灣文化印象，展現地方材料本身的新文化價值。",
+                "author": [
+                    {
+                        "name": "曾郁芳",
+                        "email": "n13572468y@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work26",
+                "title": "Re-舊衣再製",
+                "subtitle": "舊衣再造試驗，活用舊布料，再次賦予時尚新意",
+                "projectInfo": "基於快時尚的氾濫，雖然我們無法抵擋大時尚品牌不斷以工廠大量製造服飾，同時，回過頭思考，我們也無法忽視多數人對於最新流行時尚的渴望。但，我們可以重新設計舊衣，讓舊衣服結合最新流行時尚，給予舊衣新的時尚生命",
+                "author": [
+                    {
+                        "name": "彭盈瑄",
+                        "email": "inar870330@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work27",
+                "title": "蒙德里安再造計畫",
+                "subtitle": "透過時尚設計 再現世紀藝術家蒙德里安的超時代藝術精神",
+                "projectInfo": "原屬於歐洲寫實畫派的蒙德里安，受到藝術團體與宗教教義的啟發，簡化了他的創作形式，逐漸轉變為樹枝狀的線條，進而轉變到現在色彩鮮明的幾何圖形，背後其實有許多因戰爭而顛沛流離的動人故事。",
+                "author": [
+                    {
+                        "name": "林品妤",
+                        "email": "duckrice207452@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "陳欣琦",
+                        "email": "p692449@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            }
+        ],
+        "gallery4": [
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work28",
+                "title": "春風弦雨",
+                "subtitle": "鄧雨賢非虛構圖文轉化",
+                "projectInfo": "1930年代，是日治時期台灣接受西方文化薰陶最鼎盛的階段；文學、美術、電影、流行歌曲正興起發展，在這光輝璀璨的創作背後，有著無數的音樂家、藝術家在努力耕耘，他們的作品如同春雨般滋潤了臺灣這塊土地，深深縈繞在人們的心底、流傳至今。這次的作品將音樂家鄧雨賢、女歌手純純作為主角編成漫畫，讓更多讀者知道在那個年代，每一位藝術家拼盡全力所成就的音樂風華。",
+                "author": [
+                    {
+                        "name": "黃郁婷",
+                        "email": "cloda2233@gmail.com",
+                        "website": "https://www.facebook.com/cloda02233",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work29",
+                "title": "畫作之後",
+                "subtitle": "前輩美術家們與畫作的故事",
+                "projectInfo": "此系列作品以作者自選的5位前輩畫家、5件日治時期的畫作，用文化史的角度切入，書寫5本關於畫作的文化小冊，並在每本小冊各自搭配一幅相對應的插畫作品，向前輩畫家們致敬。",
+                "author": [
+                    {
+                        "name": "鍾羽涵",
+                        "email": "ac40642931@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work30",
+                "title": "窗之眼",
+                "subtitle": "顯影詩人窗道雄",
+                "projectInfo": "本專題蒐集窗．道雄在台灣日治時期所寫的詩、歌謠、短文等資料，另外再廣蒐與研讀日本學者對於窗道雄之研究論文，以筆者自己的研究與詮釋，將窗．道雄筆下作品給予人們的感動再次重現。在媒材上，本專題使用攝影創作與繪本的搭配來呈現，將文字描述的故事以創作攝影的方式呈現，代替直觀的繪圖，由景色、物件、色調等照片要素來將故事想傳達給讀者的內容展示出來。而本專題為攝影繪本與童詩的融合，將兩種新舊媒材結合，讓窗．道雄的作品以新的面貌重生，以產生一種新類型的創作。",
+                "author": [
+                    {
+                        "name": "楊宗翰",
+                        "email": "exert5612p@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work31",
+                "title": "芯女性",
+                "subtitle": "林海音小說文字意象擷取與轉化",
+                "projectInfo": "就林海音的成長背景及對其作品認知，我們選擇林海音書籍探討當時新舊文化轉型時代下女性的悲劇，並進而探究文中所呈現新舊文化下的女性意識，期能成為現今相關議題之思考養分。本專題作品的呈現，是將林海音書中描述之中國新文化運動新舊思維交替下，女權思維的衝擊以及封建制度和父權壓抑下的女性心情具象化，以燈飾展現出該時期女性受「社會框架」束縛，卻仍保有為自己爭取成為那「自己定義的新女性」之勇氣與毅力。",
+                "author": [
+                    {
+                        "name": "劉曼菱",
+                        "email": "jjj86583@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "唐惟真",
+                        "email": "jenny999az@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work32",
+                "title": "鼓樂宣禧",
+                "projectInfo": "本專題之產出將由自古以來帶有警示、發號施令作用的鼓，經過時代變遷後，產生當今流行的爵士鼓、木箱鼓為源頭進行發想。將產出自製木箱鼓並應用在所創作歌曲〈掌舵〉當中，錄製成單曲，並將木箱鼓置於展場，讓參展者得以「擊鼓鳴冤」。此專題主要目的為帶領觀眾更加認識千禧世代所身處的社會環境、所面臨的種種問題、當今企業對千禧世代的待遇，甚至與我們較為親近的長輩對於千禧世代的刻板印象等等。",
+                "author": [
+                    {
+                        "name": "曾靜揚",
+                        "email": "shizuka201623@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "張廷",
+                        "email": "xoxo93148@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work33",
+                "title": "艱難重生路",
+                "subtitle": "轉不動的轉型正義",
+                "projectInfo": "我的專題首先說明台灣過去的不正義，再談到台灣轉型正義的進程與現況，討論目前台灣轉型正義所遇到的瓶頸，再試圖提出能夠解決的辦法。我也結合自己的攝影興趣創作了一系列作品，希望能夠以圖像的力量讓各位對這個議題留下深刻的印象。",
+                "author": [
+                    {
+                        "name": "黃品皓",
+                        "email": "dear2tw@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+            {
+                "logo": "./img/projects/work1/logo1.jpg",
+                "id": "work34",
+                "title": "耳提面命",
+                "subtitle": "台灣占卜面相探究及其加值應用",
+                "projectInfo": "本專題會出產有聲書、面相搭配本及面相模板，使觀者可以透過互動的方式了解面相這項神秘的面紗，透過視覺與聽覺的感受，能夠簡單清楚的了解面相，不用透過任何人的解釋，自己也能簡單有趣的了解自我與這項產業。",
+                "author": [
+                    {
+                        "name": "張庭慈",
+                        "email": "angle52044@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    },
+                    {
+                        "name": "彭立宇",
+                        "email": "smpss92389@gmail.com",
+                        "img": "./img/projects/work1/author1_1.jpg"
+                    }
+                ],
+                "photo": [
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    },
+                    {
+                        "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    }
+                ]
+            },
+        ]
+    }
+]

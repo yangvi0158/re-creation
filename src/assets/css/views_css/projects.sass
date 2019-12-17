@@ -8,7 +8,6 @@
         height: calc( 100vh - 80px )
         padding: 4%
         border-right: $border
-        border-bottom: $border
         h6
             display: inline-block
             border-bottom: $border
@@ -20,13 +19,22 @@
             +contentText
             font-size: .8em
             color: gray
+            margin-bottom: 20px
         .project-team
-            +flexbox(space-between,center)
+            +flexbox(none,center)
             flex-wrap: wrap
             width: 100%
-            li
+            li  
                 display: block
-                flex: 30%
-                border-radius: 50%
-                //list-style: none
-                background-color: grey
+                width: 25%
+                margin: 3% 0
+                margin-right: 8%
+                img
+                    width: 100%
+                    border-radius: 50%
+                    cursor: pointer
+                    &:hover
+                        transform: scale(1.1)
+                        transition: .3s
+.last-category
+    border-right: none !important
