@@ -1,8 +1,8 @@
 <template>
   <div class="work">
     <div class="workLeft">
-      <div class="BackBtn" @click="closeProject">
-        <button>Back</button>
+      <div class="BackBtn">
+        <img src="@/assets/img/logo.png" @click="closeProject"><div></div><p>Back</p>
       </div>
       <div class="workMain">
         <h1>{{ workData[0].title }}</h1>
@@ -10,8 +10,15 @@
         <p>{{ workData[0].projectInfo }}</p>
         <div class="workAuthor">
           <div class="author" v-for="item in workData[0].author" :key="item.name">
-            <img :src="item.img">
-            {{item.name}}
+            <div class="authorImg" :style="{backgroundImage: `url(${item.img})`}"></div>
+            <!--img :src="item.img"-->
+            <p>{{item.name}}</p>
+            <a :href=" `mailto:${item.email}` " v-if="item.email">
+              <img src="@/assets/img/work/icon_email.svg">
+            </a>
+            <a :href="item.website" target="_blank" v-if="item.website">
+              <img src="@/assets/img/work/icon_web.svg">
+            </a>
           </div>
         </div>
       </div>

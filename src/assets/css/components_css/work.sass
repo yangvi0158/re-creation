@@ -5,7 +5,7 @@
     top: 0
     background-color: white
     z-index: 10
-    border-top: $border
+    //border-top: $border
     +flexbox(flex-start,none,row)
     .workLeft
         flex: 6
@@ -28,9 +28,24 @@
                 +flexbox(flex-end,center,row)
                 .author
                     +contentText
-                    img
+                    margin-left: 7%
+                    +flexbox(flex-end,flex-end,row)
+                    & > *
+                        margin-left: 10px
+                    .authorImg
                         border-radius: 50%
                         width: 50px
+                        height: 50px
+                        background-size: cover
+                        //margin-right: 10px
+                        //background-size: 180%
+                        //background-position: 90% 10%
+                        //filter: brightness(1.1)
+                    a
+                        img
+                            &:hover
+                                transition: .2s
+                                transform: scale(1.1)
 
     .workRight
         height: 100vh
@@ -42,4 +57,11 @@
 
 .BackBtn
     padding: 3% 5%
-    button
+    +flexbox(flex-start,center,row)
+    color: grey
+    img
+        width: 40px
+        cursor: pointer
+    p
+        margin-left: 10px
+        font-family: 'Tenor Sans'

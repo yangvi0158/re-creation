@@ -1,7 +1,7 @@
 [
     [
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/鐵食新嚐.svg",
             "id": "work1",
             "title": "鐵食新嚐",
             "projectInfo": "結合時下很紅的鐵路便當，並且在造型上設計成「扇形車庫」，菜單上面也著重在於彰化特色美食，讓人可以在視覺及味覺上享有文化饗宴，重要的是可以利用這樣的文化創意商品去宣達「台鐵宿舍村」的重要性，讓更多人知道過去的台鐵文化，讓大家更了解彰化台鐵宿舍村，透過多元的文化產業結合，賦予不同的新生命，帶來新生機。",
@@ -9,12 +9,12 @@
                 {
                     "name": "黃泓偉",
                     "email": "b90073@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/鐵食新嚐/鐵食新嚐_黃泓偉.jpg"
                 },
                 {
                     "name": "葉芳珉",
                     "email": "a0936199702@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/鐵食新嚐/鐵食新嚐_葉芳珉.jpg"
                 }
             ],
             "photo": [
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/信義今昔.svg",
             "id": "work2",
             "title": "信義今昔",
             "subtitle": "產業與地景變遷的故事",
@@ -80,7 +80,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/欸！你家住哪裡.svg",
             "id": "work4",
             "title": "欸！你家住哪？",
             "projectInfo": "以台北市大直為主題，運用聲音與路徑介紹在地的歷史。",
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/遊戲製作.png",
             "id": "work5",
             "title": "遊戲製作",
             "projectInfo": "這是一款用來讓大家理解過去的製茶方法，以及在過程中忽然冒出來的一些小故事的遊戲。",
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/廟繪屏現.svg",
             "id": "work6",
             "title": "廟繪屏現",
             "projectInfo": "以四扇曲屏為作品呈現，日式的屏風樣式搭配中式的博古花卉為彩繪內容，用廟宇彩繪的材料與技法施作，凸顯傳統感的對比效果以及非主流的混色效果，使觀者看見廟宇彩繪的不同樣貌，並且在感受傳統藝術之美的同時，也可以認識到廟宇彩繪的獨特性。",
@@ -157,7 +157,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/獵奇.png",
             "id": "work7",
             "title": "獵奇",
             "projectInfo": "將蘭花運用在生活綠化中，認識台灣豐富的蘭科植物；蘭花自古就擁有豐富的歷史背景，而台灣的海島型氣候孕育了多樣化的蘭科植物，透過將蘭花運用在生活當中，使人們了解到蘭花的歷史與生態。",
@@ -186,7 +186,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/澎蘭心動.png",
             "id": "work8",
             "title": "澎蘭心動",
             "subtitle": "澎湖繪本觀光旅遊",
@@ -211,7 +211,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/虎虎生風.svg",
             "id": "work9",
             "title": "虎虎聲風",
             "projectInfo": "秉持韓國傳統文化的理念，結合韓國傳統圖樣，與現代化的音響，創造出新舊融合的意象。",
@@ -235,7 +235,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/好客小吃部.png",
             "id": "work10",
             "title": "好客小吃部",
             "projectInfo": "歡迎來到好客小吃部。本店所販賣的是卡牌式桌遊，內容在介紹各式客家美食，當中包含三款遊戲，每種都簡單好上手，讓五歲以上的大人小孩能開心同樂，屬於派對型桌遊。還能當作客語教具，裡面每道美食都有標註客語發音，並額外追加八句日常客語會話，只要讀取QR Code就能播放朗讀音檔，讓大家在玩樂的同時學習客家語！",
@@ -266,7 +266,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/找茶製藥廠.png",
             "id": "work11",
             "title": "找茶製藥廠",
             "projectInfo": "我們將以寄藥包的外觀及形式，結合現代人所擁有的文明病，設計數款實用的帆布小包，裡面放入可舒緩上述等症狀的茶包，製作出趣味性的文創產品。透過富有創意的產品，新世代的民眾能夠認識到寄藥包文化，同時以此警惕民眾來改善這些文明病，讓產品在文創市場中，佔有特別的一席之地，並且讓大家一同回到50年代，重溫當時濃厚的鄉土人情味。",
@@ -297,7 +297,7 @@
     ],
     [
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/四時而歷.svg",
             "id": "work12",
             "title": "四時而曆",
             "subtitle": "傳統文化數位化與再造",
@@ -322,7 +322,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/清清子衿.svg",
             "id": "work13",
             "title": "清清子衿",
             "projectInfo": "以兩種小遊戲的方式，讓觀眾在趣味的遊戲中,對清朝的服飾與其制度有了基本的認識,並產生興趣。遊戲介紹如下：遊戲一，觀眾可以隨便抽取任一卡牌，玩家要根據卡牌的內容為相應階級身份的人性紙牌拼貼上對應的服飾。結束後，可參考解答書上的答案。遊戲二，玩家隨機抽取五張紙牌，根據牌面上的指數大小，分勝負。",
@@ -351,7 +351,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/立麗.svg",
             "id": "work14",
             "title": "立麗",
             "projectInfo": "我們希望透過「立麗」來結合東西方的幸福元素，藉由食材的選用，賦予喜餅新的寓意，並保留部分較為重要的中國婚禮傳統，設計出符合此世代的外包裝與內容物，打造出能傳遞幸福，又不造成身體負擔的喜餅禮盒。",
@@ -380,7 +380,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/浪愛有家.svg",
             "id": "work15",
             "title": "浪愛有家",
             "subtitle": "初探人類與流浪動物之關係與生命倫理推廣",
@@ -405,7 +405,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/洛神腹.svg",
             "id": "work16",
             "title": "洛神腹",
             "projectInfo": "洛神花應用模式與功能之初探。",
@@ -429,7 +429,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/廟筆生風.svg",
             "id": "work17",
             "title": "廟筆生風",
             "projectInfo": "廟宇隨著時間推進，經歷了擴建以及整修，同時，廟宇所在的地區也因外來的文化影響下發生了變化，進而影響了廟宇的發展，形成各個地方不同的廟宇彩繪之風格。本創作旨在透過影音紀實之方式，紀錄下廟宇彩繪匠師技藝與彩繪之美，並於片中探尋著廟宇彩繪之重要性，期望能夠藉由本片讓大眾更加認識台灣民間廟宇彩繪之傳承意義。",
@@ -458,7 +458,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/雅映黑體.svg",
             "id": "work18",
             "title": "雅映黑體",
             "projectInfo": "設計出能夠運用在印刷、排版及螢幕呈現的字型，更具備獨特性及美感，也希望能夠為台灣的字型產業盡一份心力。",
@@ -482,7 +482,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/牽豬哥.svg",
             "id": "work19",
             "title": "牽豬哥",
             "subtitle": "KANDIGO",
@@ -507,7 +507,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/泡泡麵.svg",
             "id": "work20",
             "title": "泡泡麵",
             "projectInfo": "將泡麵從食品轉化成一種特色造型，進而與針織淸潔布作連結，讓大家更了解台灣泡麵文化，並透過此商品轉化讓大眾欣賞其平面、包裝設計的美感和文化層面的價値，進一步思考自己與泡麵產生的記憶連結。",
@@ -531,7 +531,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/貝克街.png",
             "id": "work21",
             "title": "貝克街221B",
             "projectInfo": "喜歡偵探、喜歡福爾摩斯、喜歡推理、喜歡和大家一起玩、喜歡大家聚在一起，那就來玩吧！",
@@ -555,7 +555,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work2/logos/民間信仰.png",
             "id": "work22",
             "title": "民間信仰的魂",
             "subtitle": "探討死亡教育繪本時間與轉化",
@@ -582,7 +582,7 @@
     ],
     [
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work3/logos/器曰.svg",
             "id": "work23",
             "title": "器曰",
             "subtitle": "台灣新世代器皿實踐計畫",
@@ -612,7 +612,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work3/logos/慢慢加溫.svg",
             "id": "work24",
             "title": "慢慢佳溫",
             "subtitle": "十二生肖禮盒",
@@ -642,7 +642,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work3/logos/璋瓦祥瑞.svg",
             "id": "work25",
             "title": "璋瓦祥瑞",
             "subtitle": "材質運用於商品設計研究—以臺灣文房四寶設計為例",
@@ -667,7 +667,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work3/logos/re.svg",
             "id": "work26",
             "title": "Re-舊衣再製",
             "subtitle": "舊衣再造試驗，活用舊布料，再次賦予時尚新意",
@@ -692,7 +692,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work3/logos/蒙德里安.png",
             "id": "work27",
             "title": "蒙德里安再造計畫",
             "subtitle": "透過時尚設計 再現世紀藝術家蒙德里安的超時代藝術精神",
@@ -724,7 +724,7 @@
     ],
     [
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work4/logos/春風弦雨.svg",
             "id": "work28",
             "title": "春風弦雨",
             "subtitle": "鄧雨賢非虛構圖文轉化",
@@ -750,7 +750,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work4/logos/畫作之後.svg",
             "id": "work29",
             "title": "畫作之後",
             "subtitle": "前輩美術家們與畫作的故事",
@@ -775,7 +775,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work4/logos/窗之眼.svg",
             "id": "work30",
             "title": "窗之眼",
             "subtitle": "顯影詩人窗道雄",
@@ -800,7 +800,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work4/logos/芯女性.svg",
             "id": "work31",
             "title": "芯女性",
             "subtitle": "林海音小說文字意象擷取與轉化",
@@ -830,7 +830,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work4/logos/鼓樂宣禧.svg",
             "id": "work32",
             "title": "鼓樂宣禧",
             "projectInfo": "本專題之產出將由自古以來帶有警示、發號施令作用的鼓，經過時代變遷後，產生當今流行的爵士鼓、木箱鼓為源頭進行發想。將產出自製木箱鼓並應用在所創作歌曲〈掌舵〉當中，錄製成單曲，並將木箱鼓置於展場，讓參展者得以「擊鼓鳴冤」。此專題主要目的為帶領觀眾更加認識千禧世代所身處的社會環境、所面臨的種種問題、當今企業對千禧世代的待遇，甚至與我們較為親近的長輩對於千禧世代的刻板印象等等。",
@@ -859,7 +859,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work4/logos/艱難重生路.png",
             "id": "work33",
             "title": "艱難重生路",
             "subtitle": "轉不動的轉型正義",
@@ -884,7 +884,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work4/logos/耳提面命.svg",
             "id": "work34",
             "title": "耳提面命",
             "subtitle": "台灣占卜面相探究及其加值應用",

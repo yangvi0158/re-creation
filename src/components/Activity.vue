@@ -1,7 +1,7 @@
 <template>
   <div class="activity">
     <div class="BackBtn">
-        <button @click="closeActivity">Back</button>
+        <img src="@/assets/img/logo.png" @click="closeActivity"><div></div><p>Back</p>
     </div>
     <div class="activity-main">
         <div class="activity-mainTop">

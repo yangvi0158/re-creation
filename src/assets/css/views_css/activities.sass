@@ -26,6 +26,9 @@
         position: relative
         padding: 0
         height: calc( (100vh - 10px)/2 )
+        &:hover
+            background-color: rgba(white,.5)
+            transition: .2s
         .activity-card-top
             padding: 5%
             z-index: 3
@@ -65,8 +68,6 @@
                 z-index: 1
                 bottom: 1px
                 left: 0
-                &:hover
-                    filter: grayscale(.8)
     .topcard
         height: calc( (100vh - 150px)/2 )
 .activity-Bottom
