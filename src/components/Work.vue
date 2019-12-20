@@ -24,14 +24,19 @@
       </div>
     </div>
     <div class="workRight">
-      <img :src="workData[0].photo[0].imgUrl">
+      <slider :work-data="workData"></slider>
+      <!--img :src="workData[0].photo[0].imgUrl"-->
     </div>
   </div>
 </template>
 <script>
 import axios from 'axios'
+import slider from '@/components/VueSlider.vue'
 export default {
   name: 'work',
+  components: {
+    slider
+  },
   props: {
     workId: String,
     workNum: Number

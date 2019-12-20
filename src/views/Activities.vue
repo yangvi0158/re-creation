@@ -23,7 +23,8 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity1_red.jpg">
+          <img src="@/assets/img/activities/activity1_black.jpg">
+          <img class="activity-red-img" src="@/assets/img/activities/activity1_red.jpg">
           <h3>Ushow<br>LEE</h3>
         </div>
       </div>
@@ -43,7 +44,8 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity2_red.jpg">
+          <img src="@/assets/img/activities/activity2_black.jpg">
+          <img class="activity-red-img" src="@/assets/img/activities/activity2_red.jpg">
           <h3>林太崴</h3>
         </div>
       </div>
@@ -63,7 +65,8 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity3_red.jpg">
+          <img src="@/assets/img/activities/activity3_black.jpg">
+          <img class="activity-red-img" src="@/assets/img/activities/activity3_red.jpg">
           <h3>邵璦婷</h3>
         </div>
       </div>
@@ -91,7 +94,8 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity4_red.jpg">
+          <img src="@/assets/img/activities/activity4_black.jpg">
+          <img class="activity-red-img" src="@/assets/img/activities/activity4_red.jpg">
           <h3>黃郁婷</h3>
         </div>
       </div>
@@ -109,10 +113,11 @@
           </div>
           <div class="activity-card-top-right">
             <img src="@/assets/img/activities/date19.png">
-          </div>
+          </div>｀
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity5_red.jpg">
+          <img src="@/assets/img/activities/activity5_black.jpg">
+          <img class="activity-red-img" src="@/assets/img/activities/activity5_red.jpg">
           <h3>周孟勳</h3>
         </div>
       </div>
