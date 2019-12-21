@@ -1,4 +1,4 @@
-function Setup (element) {
+function Setup (element, speed) {
   let run = true
   let colors = ['ffffff', 'ffc6c6', 'bbcefb', 'd6fefa', 'fcc3e8']
 
@@ -26,13 +26,13 @@ function Setup (element) {
     let c2 = getLinear(t + 1)
 
     element.style.background = `linear-gradient(to left bottom, rgb(${c2.join(',')}),rgb(${c1.join(',')}))`
-    t += v + 0.003
+    t += v + 0.003 * speed
     v *= 0.9
     if (t > rgbs.length) t -= rgbs.length
   }
 
   function mouseMove () {
-    v += 0.0002
+    v += 0.001 * speed
   }
 
   addEventListener('mousemove', mouseMove)
