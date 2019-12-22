@@ -8,7 +8,7 @@
 //variables
 $border: solid 1px black
 $mainPadding: 5% 10%
-
+$grey: #4f4f4f
 //mixin
 @mixin flexbox($jc,$ai,$fd:row)
     display: flex
@@ -20,3 +20,9 @@ $mainPadding: 5% 10%
     font-size: .9em
     font-weight: 500
     letter-spacing: .15em
+
+@mixin greyText
+    color: $grey
+    font-size: .85em
+    letter-spacing: .15em
+    font-weight: 600

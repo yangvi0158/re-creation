@@ -24,6 +24,7 @@
                 +flexbox(flex-start,center)
                 .about-card-left
                     margin-right: 30px
+                    white-space: nowrap
                     p
                         font-size: 1.5em
                         letter-spacing: .2em
@@ -31,25 +32,58 @@
                     font-size: 1.3em
                     font-weight: 700
                     letter-spacing: .2em
+                    white-space: nowrap
             .aboutTop-card-bottom
                 margin-top: 10px
-                color: grey
-                font-size: .9em
+                +greyText
                 font-weight: 600
-                
-                p
+                letter-spacing: .1em
+                white-space: nowrap
                     
     .aboutBottom
         width: 100%
         padding: $mainPadding
+        padding-bottom: 13%
         //border: $border
-        background-color: #fff
+        //background-color: #fff
         h1
             margin-bottom: 10px
         h2
             margin-bottom: 50px
-        p
-            +contentText
+        div
+            +greyText
+            font-weight: 600
             text-align: justify
+            color: $grey
             span
                 font-family: sans-serif
+
+
+@media screen and (max-width: 870px)
+    .aboutTop
+        flex-direction: column !important
+        .about-card
+            width: 100% !important
+            margin: 5% 0     
+
+    .aboutBottom
+        div
+            p
+                display: inline
+@media (max-width: 870px) and (min-width: 601px)
+    .about-card-right
+        //font-size: 2em !important
+        p
+            display: inline  
+
+@media screen and (max-width: 600px)
+    .about
+        border-top: none
+    .about-card-right
+        font-size: 1.3em !important
+        p
+            display: block !important
+    .aboutBottom
+        h2
+            font-size: 1.3em
+

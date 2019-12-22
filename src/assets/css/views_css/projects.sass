@@ -18,7 +18,7 @@
         p
             +contentText
             font-size: .8em
-            color: gray
+            color: $grey
             margin-bottom: 20px
         .project-team
             +flexbox(none,center)
@@ -34,8 +34,44 @@
                     border-radius: 50%
                     cursor: pointer
                     background-color: white
+                    opacity: .7
                     &:hover
                         transform: scale(1.1)
                         transition: .3s
+                        opacity: 1
 .last-category
     border-right: none !important
+
+
+@media screen and (max-width: 750px)
+    .projects
+        border-top: none
+        flex-direction: column
+        .project-category
+            height: auto
+            width: 100%
+            padding: 10% 15%
+            margin: 0 auto !important
+            border-right: none
+            border-bottom: $border
+            h6
+                display: none
+                
+            h1
+                font-size: 2.5em 
+            .project-team
+                width: 100%
+                li  
+                    display: block
+                    width: 15%
+                    margin: 3% 0
+                    margin-right: 5%
+
+@media screen and (max-width: 500px)
+    .project-category
+        padding: 10% !important
+    .project-team
+        li  
+            display: block
+            width: 17% !important
+            margin-right: 8% !important

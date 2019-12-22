@@ -22,10 +22,16 @@ export default {
 <style scoped>
 .vfx-keyvision_main {
   position: relative;
+  margin: auto;
+  /* transform: translate(0, -50%) */
 }
 
 .vfx-keyvision_backupimg {
   /* opacity: 0; */
+  max-width: 100%;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
 }
 
 .vfx-keyvision_content {
@@ -38,9 +44,10 @@ export default {
 
 .vfx-keyvision_ball {
   position: relative;
-  width: 800px;
-  height: 800px;
-  left: -70px;
-  top: -50px;
+  width: 68.72%;
+  height: 101.5%;
+  transform:translate(-8.75%,-6.25%);
+  left: 0;
+  top: 0;
 }
 </style>

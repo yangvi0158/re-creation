@@ -7,13 +7,19 @@ import background from './background'
 
 export default {
   name: 'vfx-background',
+  props: {
+    speed: {
+      type: Number,
+      default: 1
+    }
+  },
   data () {
     return {
       handler: null
     }
   },
   mounted () {
-    this.handler = background.setup(this.$refs['vfx-background'])
+    this.handler = background.setup(this.$refs['vfx-background'], this.speed)
   },
   destroyed () {
     this.handler.destroy()

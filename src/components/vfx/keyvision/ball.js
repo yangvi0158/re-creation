@@ -26,7 +26,8 @@ function setup (canvas) {
       texture: new Uniform(textureBallObj),
       noise: new Uniform(textureNoiseObj),
       iResolution: new Uniform(new Vector2(500, 500)),
-      iTime: new Uniform(0)
+      iTime: new Uniform(0),
+      complete: new Uniform(0)
 
     }
   })
@@ -48,20 +49,37 @@ function setup (canvas) {
     shader.uniforms.iResolution.value.y = height
     renderer.setSize(width, height)
   }
+
   let x = 0
   let y = 0
   let z = 0
 
   let offset = Math.random()
+  let timepre = null
+
+  let lag = 0
+
   function update () {
+    let timenow = new Date().getTime()
+    if (timepre != null) {
+      let delta = timenow - timepre
+      if (delta > 40) lag++
+      if (lag > 50) {
+        run = false
+        console.log('too lag, disable vfx')
+      }
+    }
+    timepre = timenow
     if (run) requestAnimationFrame(update)
     else return
+    resize()
     let pz = shader.uniforms.p1.value.z
     shader.uniforms.p1.value.x += (x - shader.uniforms.p1.value.x) * (0.05 * pz + (1 - pz) * 0.4)
     shader.uniforms.p1.value.y += (y - shader.uniforms.p1.value.y) * (0.05 * pz + (1 - pz) * 0.4)
     shader.uniforms.p1.value.z += (z - shader.uniforms.p1.value.z) * 0.03
+    shader.uniforms.complete.value += (1 - shader.uniforms.complete.value) * 0.03
 
-    shader.uniforms.iTime.value = (new Date().getTime() / 15000 + offset) % 1
+    shader.uniforms.iTime.value = (timenow / 15000 + offset) % 1
     // shader.needsUpdate = true
     renderer.render(scene, camera)
   }

@@ -11,7 +11,7 @@
         <div class="activity-card-top">
           <div class="activity-card-top-left">
             <p>14:00-15:30</p>
-            <h3>Show Time</h3>
+            <h3 style="letterSpacing: .1em">Show Time</h3>
             <p>談新時代的文化推廣與包裝行銷</p>
             <div class="activity-card-address">
               <img src="@/assets/img/activities/dot.png">
@@ -113,7 +113,7 @@
           </div>
           <div class="activity-card-top-right">
             <img src="@/assets/img/activities/date19.png">
-          </div>｀
+          </div>
         </div>
         <div class="activity-card-bottom">
           <img src="@/assets/img/activities/activity5_black.jpg">
