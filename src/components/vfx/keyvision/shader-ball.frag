@@ -69,7 +69,9 @@ float heightMapWithMouse(vec2 p){
     vec3 r = vec3(p, h);
     vec3 m = vec3(mo, max(0.0, heightMap(mo)));
     float mol = length(r-m);
-    float dh = ((sin(mol*5.+iTime*pi*-20.0)+1.0)/(mol*mol+2.0))*0.2*p1.z;
+    mol *= 2.0;
+    mol = mol*atan(mol)-0.5*log(1.0+mol*mol);
+    float dh = ((sin(mol*3.+iTime*pi*-20.0)+1.0)/(mol*mol+2.0))*0.2*p1.z;
     
     h=heightMap(p-(p)*dh)-dh;
     return sqrt(h);
