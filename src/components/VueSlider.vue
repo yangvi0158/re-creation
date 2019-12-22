@@ -25,6 +25,9 @@
 </template>
 
 <style>
+.swiper-container ,.swiper-container-initialized ,.swiper-container-horizontal{
+  background-color: white;
+}
 .swiper-wrapper{
   width: 40vw;
   background-color: white;
@@ -73,7 +76,7 @@ export default {
     return {
       data: this.workData,
       swiperOption: {
-        spaceBetween: 50,
+        spaceBetween: 0,
         centeredSlides: true,
         autoplay: {
           delay: 5000,

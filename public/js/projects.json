@@ -9,12 +9,12 @@
                 {
                     "name": "黃泓偉",
                     "email": "b90073@gmail.com",
-                    "img": "./img/projects/work1/鐵食新嚐/鐵食新嚐_黃泓偉.jpg"
+                    "img": "./img/projects/work1/鐵食新嚐/author.jpg"
                 },
                 {
                     "name": "葉芳珉",
                     "email": "a0936199702@gmail.com",
-                    "img": "./img/projects/work1/鐵食新嚐/鐵食新嚐_葉芳珉.jpg"
+                    "img": "./img/projects/work1/鐵食新嚐/author2.jpg"
                 }
             ],
             "photo": [
@@ -39,7 +39,7 @@
                 {
                     "name": "林禹蓁",
                     "email": "lyuzhen2019@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/信義今昔/author.jpg"
                 }
             ],
             "photo": [
@@ -64,7 +64,7 @@
                 {
                     "name": "蘇紹文",
                     "email": "da0228312@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/一大川堂/author.jpg"
                 }
             ],
             "photo": [
@@ -82,13 +82,13 @@
         {
             "logo": "./img/projects/work1/logos/欸！你家住哪裡.svg",
             "id": "work4",
-            "title": "欸！你家住哪？",
-            "projectInfo": "以台北市大直為主題，運用聲音與路徑介紹在地的歷史。",
+            "title": "泛著血光的自由",
+            "projectInfo": "運用聲音來講述白色恐怖背景下受到不公平對待的政治受難者的故事。",
             "author": [
                 {
                     "name": "陳沐昭",
                     "email": "heman20307@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/泛著血光/author.jpg"
                 }
             ],
             "photo": [
@@ -112,7 +112,7 @@
                 {
                     "name": "邱冠達",
                     "email": "shadowkitune@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/遊戲製作/author.jpg"
                 }
             ],
             "photo": [
@@ -136,12 +136,12 @@
                 {
                     "name": "穆思妍",
                     "email": "amy22908@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/廟繪屏現/author.jpg"
                 },
                 {
                     "name": "周怡萱",
                     "email": "wendy30830@yahoo.com.tw",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/廟繪屏現/author2.jpg"
                 }
             ],
             "photo": [
@@ -165,12 +165,12 @@
                 {
                     "name": "李毓杰",
                     "email": "a87261536@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/獵奇/author.jpg"
                 },
                 {
                     "name": "陳致維",
                     "email": "log316543@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/獵奇/author2.jpg"
                 }
             ],
             "photo": [
@@ -195,18 +195,18 @@
                 {
                     "name": "盧佳宜",
                     "email": "z9981171@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/澎蘭心動/author.jpg"
                 }
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/澎蘭心動/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/澎蘭心動/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/澎蘭心動/3.jpg"
                 }
             ]
         },
@@ -219,7 +219,7 @@
                 {
                     "name": "董禮芫",
                     "email": "yewon971203@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/虎虎聲風/author.jpg"
                 }
             ],
             "photo": [
@@ -243,25 +243,25 @@
                 {
                     "name": "朱元儀",
                     "email": "smilerinna5215641@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg",
+                    "img": "./img/projects/work1/好客小吃部/author.jpg",
                     "website": "https://www.facebook.com/HakkaRestauranttt/"
                 },
                 {
                     "name": "張景如",
                     "email": "sisterjennysisterjenny@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg",
+                    "img": "./img/projects/work1/好客小吃部/author2.jpg",
                     "website": "https://www.facebook.com/HakkaRestauranttt/"
                 }
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/好客小吃部/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/好客小吃部/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/好客小吃部/3.jpg"
                 }
             ]
         },
@@ -274,23 +274,23 @@
                 {
                     "name": "爐湘智",
                     "email": "minnalulu0113@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/找茶製藥廠/author.jpg"
                 },
                 {
                     "name": "謝函芯",
                     "email": "kkb860623@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work1/找茶製藥廠/author2.jpg"
                 }
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/找茶製藥廠/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/找茶製藥廠/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/找茶製藥廠/3.jpg"
                 }
             ]
         }
@@ -306,7 +306,7 @@
                 {
                     "name": "林于平",
                     "email": "sakurasake1998@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/四時而曆/author.jpg"
                 }
             ],
             "photo": [
@@ -330,12 +330,12 @@
                 {
                     "name": "邱子芸",
                     "email": "tzuyun401@gmai..com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/清清子衿/author.jpg"
                 },
                 {
                     "name": "黃維婷",
                     "email": "weit96@hotmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/清清子衿/author2.jpg"
                 }
             ],
             "photo": [
@@ -359,12 +359,12 @@
                 {
                     "name": "吳立慈",
                     "email": "phyllis87221@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/立麗/author.jpg"
                 },
                 {
                     "name": "黃麗樺",
                     "email": "apple8386113@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/立麗/author2.jpg"
                 }
             ],
             "photo": [
@@ -389,7 +389,7 @@
                 {
                     "name": "謝采君",
                     "email": "coco1114ya@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/浪愛有家/author.jpg"
                 }
             ],
             "photo": [
@@ -413,7 +413,7 @@
                 {
                     "name": "許馨予",
                     "email": "cynthia980622@yahoo.com.tw",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/洛神腹/author.jpg"
                 }
             ],
             "photo": [
@@ -437,12 +437,12 @@
                 {
                     "name": "葉淨慈",
                     "email": "t105a50030@ntut.org.tw",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/廟筆生風/author.jpg"
                 },
                 {
                     "name": "王婷楨",
                     "email": "jenny41404@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/廟筆生風/author2.jpg"
                 }
             ],
             "photo": [
@@ -466,7 +466,7 @@
                 {
                     "name": "林映辰",
                     "email": "a61206121@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/雅映黑體/author.jpg"
                 }
             ],
             "photo": [
@@ -491,7 +491,7 @@
                 {
                     "name": "曾一修",
                     "email": "ihsiu.tw@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/牽豬哥/author.jpg"
                 }
             ],
             "photo": [
@@ -515,7 +515,7 @@
                 {
                     "name": "廖珮綺",
                     "email": "cross87412@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/泡泡麵/author.jpg"
                 }
             ],
             "photo": [
@@ -539,7 +539,7 @@
                 {
                     "name": "張翔媛",
                     "email": "yuann980423@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/貝克街221B/author.jpg"
                 }
             ],
             "photo": [
@@ -564,7 +564,7 @@
                 {
                     "name": "石佳欣",
                     "email": "c6971012@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work2/民間信仰的魂/author.jpg"
                 }
             ],
             "photo": [
@@ -591,12 +591,12 @@
                 {
                     "name": "陳玟伶",
                     "email": "chocolin0717@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work3/器曰/author.jpg"
                 },
                 {
                     "name": "朱曼寧",
                     "email": "manningchu@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work3/器曰/author2.jpg"
                 }
             ],
             "photo": [
@@ -621,12 +621,12 @@
                 {
                     "name": "李佳韓",
                     "email": "ay016216@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work3/慢慢佳溫/author.jpg"
                 },
                 {
                     "name": "鄭溫秀",
                     "email": "bibididi86@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work3/慢慢佳溫/author2.jpg"
                 }
             ],
             "photo": [
@@ -651,7 +651,7 @@
                 {
                     "name": "曾郁芳",
                     "email": "n13572468y@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work3/璋瓦祥瑞/author.jpg"
                 }
             ],
             "photo": [
@@ -676,7 +676,7 @@
                 {
                     "name": "彭盈瑄",
                     "email": "inar870330@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work3/Re-舊衣再製/author.jpg"
                 }
             ],
             "photo": [
@@ -696,17 +696,17 @@
             "id": "work27",
             "title": "蒙德里安再造計畫",
             "subtitle": "透過時尚設計 再現世紀藝術家蒙德里安的超時代藝術精神",
-            "projectInfo": "原屬於歐洲寫實畫派的蒙德里安，受到藝術團體與宗教教義的啟發，簡化了他的創作形式，逐漸轉變為樹枝狀的線條，進而轉變到現在色彩鮮明的幾何圖形，背後其實有許多因戰爭而顛沛流離的動人故事。",
+            "projectInfo": "原屬於歐洲寫實畫派的畫家蒙德里安(Mondrian)，受到藝術團體與宗教教義的啟發，簡化了其創作形式，進而轉變到現在紅、黃及藍的鮮明色塊及線條。而《蒙德里安再造計畫》將運用其最具盛名的兩幅作品《紅、黃、藍構成》與《百老匯爵士樂》為題材，透過時尚設計，與服裝結合，再現其畫作超時代藝術精神。",
             "author": [
                 {
                     "name": "林品妤",
-                    "email": "duckrice207452@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "email": "p692449@gmail.com",
+                    "img": "./img/projects/work3/蒙德里安再造計畫/author.jpg"
                 },
                 {
                     "name": "陳欣琦",
-                    "email": "p692449@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "email": "duckrice207452@gmail.com",
+                    "img": "./img/projects/work3/蒙德里安再造計畫/author2.jpg"
                 }
             ],
             "photo": [
@@ -734,7 +734,7 @@
                     "name": "黃郁婷",
                     "email": "cloda2233@gmail.com",
                     "website": "https://www.facebook.com/cloda02233",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/春風弦雨/author.jpg"
                 }
             ],
             "photo": [
@@ -759,7 +759,7 @@
                 {
                     "name": "鍾羽涵",
                     "email": "ac40642931@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/畫作之後/author.jpg"
                 }
             ],
             "photo": [
@@ -784,7 +784,7 @@
                 {
                     "name": "楊宗翰",
                     "email": "exert5612p@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/窗之眼/author.jpg"
                 }
             ],
             "photo": [
@@ -809,12 +809,12 @@
                 {
                     "name": "劉曼菱",
                     "email": "jjj86583@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/芯女性/author.jpg"
                 },
                 {
                     "name": "唐惟真",
                     "email": "jenny999az@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/芯女性/author2.jpg"
                 }
             ],
             "photo": [
@@ -838,12 +838,12 @@
                 {
                     "name": "曾靜揚",
                     "email": "shizuka201623@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/鼓樂宣禧/author.jpg"
                 },
                 {
                     "name": "張廷",
                     "email": "xoxo93148@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/鼓樂宣禧/author2.jpg"
                 }
             ],
             "photo": [
@@ -868,7 +868,7 @@
                 {
                     "name": "黃品皓",
                     "email": "dear2tw@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/艱難重生路/author.jpg"
                 }
             ],
             "photo": [
@@ -893,12 +893,12 @@
                 {
                     "name": "張庭慈",
                     "email": "angle52044@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/耳提面命/author.jpg"
                 },
                 {
                     "name": "彭立宇",
                     "email": "smpss92389@gmail.com",
-                    "img": "./img/projects/work1/author1_1.jpg"
+                    "img": "./img/projects/work4/耳提面命/author2.jpg"
                 }
             ],
             "photo": [
