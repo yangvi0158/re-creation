@@ -45,7 +45,6 @@
                 .activity-card-address
                     +flexbox(flex-start,center,row)
                     +greyText
-                    color: grey
                     img 
                         width: 12px
                         margin-top: 3px
@@ -74,3 +73,49 @@
         height: calc( (100vh - 150px)/2 )
 .activity-Bottom
     border-bottom: none !important
+.hideActivities
+    display: none !important
+
+@media screen and (max-width: 1000px)
+    .activities
+        border-top: none
+        over-flow: visible
+        .activity-Top,.activity-Bottom
+            +flexbox(flex-start,flex-start,row)
+            flex-direction: column
+            border-bottom: none
+            width: 100%
+            .activity-title
+                padding: 10% 5%
+                width: 100%
+                +flexbox(flex-start,flex-start,column)
+                border-bottom: $border
+            .activity-card
+                width: 100%
+                border-left: none
+                border-bottom: $border
+                position: relative
+                padding: 0
+                height: auto !important
+                .activity-card-top
+                    padding: 5%
+                    z-index: 3
+                    +flexbox(space-between,center,row)
+                    .activity-card-top-left
+                        h3
+                            font-weight: 800
+                            font-size: 1.5em
+                        p
+                            font-weight: 600
+                        .activity-card-address
+                            +greyText
+                    .activity-card-top-right
+                        img
+                            width: 70px
+
+                .activity-card-bottom
+                    position: relative
+                    .activity-red-img
+                        position: absolute
+            .topcard
+                height: auto

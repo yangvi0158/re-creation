@@ -4,7 +4,7 @@
     position: absolute
     top: 0
     background-color: white
-    z-index: 10
+    z-index: 1000
     //border-top: $border
     +flexbox(flex-start,none,row)
     .workLeft
@@ -53,8 +53,6 @@
         img
             height: 100vh
 
-
-
 .BackBtn
     padding: 3% 5%
     +flexbox(flex-start,center,row)
@@ -65,3 +63,40 @@
     p
         margin-left: 10px
         font-family: 'Tenor Sans'
+
+@media screen and (max-width: 800px)
+    .work
+        height: auto
+        min-height: 100vh
+        flex-direction: column !important
+        .workLeft
+            flex: auto
+            .workMain
+                padding: 8% 10%
+                color: black
+                p
+                    font-family: 'Noto Serif TC'
+                    font-size: .8em !important
+                    line-height: 2em
+                    +contentText
+                .workAuthor
+                    justify-content: flex-start
+                    .author
+                        margin-left: 0
+                        +flexbox(flex-end,flex-end,row)
+                        & > *
+                            margin-left: 10px
+                        .authorImg
+                            display: none
+                        a
+                            img
+                                width: 20px
+        .workRight
+            height: auto
+            img
+                height: auto
+                width: 100vw
+
+    .swiper-slide
+        height: auto
+        

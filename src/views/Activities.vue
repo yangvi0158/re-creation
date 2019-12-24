@@ -1,6 +1,6 @@
 <template>
   <div class="activities">
-    <div class="activity-Top">
+    <div class="activity-Top" :class="{'hideActivities': showActivity}">
       <div class="activity-title">
         <div>
           <h1>創甡<br>日日講</h1>
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity1_black.jpg">
+          <img src="@/assets/img/activities/activity1.jpg">
           <img class="activity-red-img" src="@/assets/img/activities/activity1_red.jpg">
           <h3>Ushow<br>LEE</h3>
         </div>
@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity2_black.jpg">
+          <img src="@/assets/img/activities/activity2.jpg">
           <img class="activity-red-img" src="@/assets/img/activities/activity2_red.jpg">
           <h3>林太崴</h3>
         </div>
@@ -65,13 +65,13 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity3_black.jpg">
+          <img src="@/assets/img/activities/activity3.jpg">
           <img class="activity-red-img" src="@/assets/img/activities/activity3_red.jpg">
           <h3>邵璦婷</h3>
         </div>
       </div>
     </div>
-    <div class="activity-Bottom">
+    <div class="activity-Bottom" :class="{'hideActivities': showActivity}">
       <div class="activity-title">
         <div>
           <h1>創甡<br>日日作</h1>
@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity4_black.jpg">
+          <img src="@/assets/img/activities/activity4.jpg">
           <img class="activity-red-img" src="@/assets/img/activities/activity4_red.jpg">
           <h3>黃郁婷</h3>
         </div>
@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="activity-card-bottom">
-          <img src="@/assets/img/activities/activity5_black.jpg">
+          <img src="@/assets/img/activities/activity5.jpg">
           <img class="activity-red-img" src="@/assets/img/activities/activity5_red.jpg">
           <h3>周孟勳</h3>
         </div>

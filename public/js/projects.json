@@ -55,7 +55,7 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logo1.jpg",
+            "logo": "./img/projects/work1/logos/一大川堂.png",
             "id": "work3",
             "title": "一大川堂",
             "subtitle": "建築造型探析及其詮釋轉化",
@@ -69,13 +69,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/一大川堂/3.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/一大川堂/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/一大川堂/2.jpg"
                 }
             ]
         },
@@ -117,13 +117,7 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
-                },
-                {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
-                },
-                {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/遊戲製作/1.jpg"
                 }
             ]
         },
@@ -146,13 +140,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/廟繪屏現/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/廟繪屏現/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/廟繪屏現/3.jpg"
                 }
             ]
         },
@@ -175,13 +169,16 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/獵奇/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/獵奇/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/獵奇/3.jpg"
+                },
+                {
+                    "imgUrl": "./img/projects/work1/獵奇/4.jpg"
                 }
             ]
         },
@@ -224,13 +221,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/虎虎聲風/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/虎虎聲風/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/虎虎聲風/3.jpg"
                 }
             ]
         },
@@ -311,13 +308,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/四時而曆/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/四時而曆/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/四時而曆/3.jpg"
                 }
             ]
         },
@@ -340,13 +337,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/清清子衿/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/清清子衿/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/清清子衿/3.jpg"
                 }
             ]
         },
@@ -394,13 +391,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/浪愛有家/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/浪愛有家/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/浪愛有家/3.jpg"
                 }
             ]
         },
@@ -418,13 +415,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/洛神腹/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/洛神腹/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/洛神腹/3.jpg"
                 }
             ]
         },
@@ -447,13 +444,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/廟筆生風/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/廟筆生風/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/廟筆生風/3.jpg"
                 }
             ]
         },
@@ -471,13 +468,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/雅映黑體/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/雅映黑體/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/雅映黑體/3.jpg"
                 }
             ]
         },
@@ -496,13 +493,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/牽豬哥/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/牽豬哥/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/牽豬哥/3.jpg"
                 }
             ]
         },
@@ -544,13 +541,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/貝克街221B/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/貝克街221B/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/貝克街221B/3.jpg"
                 }
             ]
         },
@@ -569,13 +566,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/民間信仰的魂/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/民間信仰的魂/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/民間信仰的魂/3.jpg"
                 }
             ]
         }
@@ -601,13 +598,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/器曰/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/器曰/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/器曰/3.jpg"
                 }
             ]
         },
@@ -631,13 +628,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/慢慢佳溫/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/慢慢佳溫/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/慢慢佳溫/3.jpg"
                 }
             ]
         },
@@ -656,13 +653,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/璋瓦祥瑞/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/璋瓦祥瑞/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/璋瓦祥瑞/3.jpg"
                 }
             ]
         },
@@ -681,13 +678,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/Re-舊衣再製/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/Re-舊衣再製/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/Re-舊衣再製/3.jpg"
                 }
             ]
         },
@@ -711,13 +708,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/蒙德里安再造計畫/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/蒙德里安再造計畫/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work3/蒙德里安再造計畫/3.jpg"
                 }
             ]
         }
@@ -739,13 +736,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/春風弦雨/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/春風弦雨/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/春風弦雨/3.jpg"
                 }
             ]
         },
@@ -764,13 +761,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/畫作之後/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/畫作之後/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/畫作之後/3.jpg"
                 }
             ]
         },
@@ -789,13 +786,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/窗之眼/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/窗之眼/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/窗之眼/3.jpg"
                 }
             ]
         },
@@ -819,13 +816,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/芯女性/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/芯女性/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/芯女性/3.jpg"
                 }
             ]
         },
@@ -848,13 +845,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/鼓樂宣禧/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/鼓樂宣禧/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/鼓樂宣禧/3.jpg"
                 }
             ]
         },
@@ -873,13 +870,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/艱難重生路/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/艱難重生路/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/艱難重生路/3.jpg"
                 }
             ]
         },
@@ -903,13 +900,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/耳提面命/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/耳提面命/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work4/耳提面命/3.jpg"
                 }
             ]
         }

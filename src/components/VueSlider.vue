@@ -1,18 +1,5 @@
 <template>
   <md-card>
-    <!--md-card-actions>
-      <div class="md-subhead">
-        <span>Autoplay</span>
-        <span>（</span>
-        <span>自动切换</span>
-        <span>）</span>
-      </div>
-      <md-button class="md-icon-button"
-                 target="_blank"
-                 href="https://github.com/surmon-china/vue-awesome-swiper/blob/master/examples/28-autoplay.vue">
-        <md-icon>code</md-icon>
-      </md-button>
-    </md-card-actions-->
     <md-card-media>
       <swiper :options="swiperOption">
         <swiper-slide v-for="item in data[0].photo" :key="item.imgUrl"><img :src="item.imgUrl"></swiper-slide>
@@ -26,14 +13,14 @@
 
 <style>
 .swiper-container ,.swiper-container-initialized ,.swiper-container-horizontal{
-  background-color: white;
+  background-color: transparent;
 }
 .swiper-wrapper{
   width: 40vw;
-  background-color: white;
+  background-color: transparent;
 }
 .swiper-slide{
-  background-color: white;
+  background-color: transparent;
   height: 100vh;
 }
 .swiper-pagination-bullet{
@@ -42,7 +29,7 @@
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
-  background-color: white;
+  background-color: transparent;
 }
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
   bottom: 50px;
@@ -58,6 +45,15 @@
   width: 15px;
   background-size: contain;
   z-index: 10;
+}
+
+@media screen and (max-width: 800px){
+  .swiper-slide{
+    height: auto;
+  }
+  .swiper-wrapper{
+    width: 100vw;
+  }
 }
 </style>
 
@@ -99,7 +95,6 @@ export default {
     }
   },
   mounted () {
-    console.log('this is current swiper instance object', this.swiper)
     this.swiper.slideTo(3, 1000, false)
   }
 }

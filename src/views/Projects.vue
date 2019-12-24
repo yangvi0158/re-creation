@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <div class="project-category">
+    <div class="project-category" :class="{'hideProjects': showProject}">
       <h6>01</h6>
       <h1>屮屮之間，</h1>
       <p>這片土地上的大小事，這片土地網羅了千千萬萬個故事。</p>
@@ -11,7 +11,7 @@
       </ul>
     </div>
 
-    <div class="project-category">
+    <div class="project-category" :class="{'hideProjects': showProject}">
       <h6>02</h6>
       <h1>日日之間，</h1>
       <p>生活日常的故事，如同滿片星星般光明閃亮。</p>
@@ -22,7 +22,7 @@
       </ul>
     </div>
 
-    <div class="project-category">
+    <div class="project-category" :class="{'hideProjects': showProject}">
       <h6>03</h6>
       <h1>手手之間，</h1>
       <p>在每雙巧手之間，引聚匯流了這些工藝故事。</p>
@@ -33,7 +33,7 @@
       </ul>
     </div>
 
-    <div class="project-category last-category">
+    <div class="project-category last-category" :class="{'hideProjects': showProject}">
       <h6>04</h6>
       <h1>人人之間，</h1>
       <p>人與人之間的故事，象徵著跟隨前人的引導前進。</p>

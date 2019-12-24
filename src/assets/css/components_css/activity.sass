@@ -12,6 +12,25 @@
     .activity-main
         //border: $border
         margin: 0 15%
+        .activity-detail_mobile
+            border-bottom: $border
+            display: none
+            padding: 5% 0
+            margin-bottom: 5%
+            h2
+                font-size: 2em
+                letter-spacing: .15em
+            h3
+                font-size: 1.5em
+                letter-spacing: .15em
+            div
+                +greyText
+                margin: 3% 0
+                img
+                    +spot
+
+            p
+                +contentText
         .activity-mainTop
             border-bottom: $border
             margin-bottom: 30px
@@ -26,15 +45,12 @@
                 h2
                     letter-spacing: .2em
                     font-weight: 800
-                .activity-detail_mobile
-                    display: none
                 .activity-detail-desktop
                     +contentText
                     font-weight: 600
                     margin-top: 15px
                     img 
-                        width: 12px
-                        margin-right: 10px
+                        +spot
                     +flexbox(none,center,row)
                     & > div
                         margin-right: 20px
@@ -46,6 +62,7 @@
             height: 100%
             p
                 +contentText
+                line-height: 2em
             .activity-mainBottom-picture
                 .mainBottom-picture_desktop
                     position: absolute
@@ -69,8 +86,8 @@
                                 transition: .2s
                                 transform: scale(1.05)
 
-                .mainBottom-picture_mobile
-                    display: none
+        .picture_mobile
+            display: none
 
     .bigpicture_desktop
         position: fixed
@@ -132,3 +149,58 @@
         left: -20px
         position: relative
         transition: .4s
+
+@media screen and (max-width: 900px)
+    .activity
+        width: 100vw
+        height: auto
+        min-height: 100vh
+        position: absolute
+        overflow-y: hidden
+        z-index: 1000
+        +flexbox(flex-start,center,column)
+        .activity-main
+            .activity-detail_mobile
+                display: block
+                margin: 0 10%
+            .activity-mainTop
+                margin: 0 10%
+                border-bottom: $border
+                margin-bottom: 0px
+                padding-bottom: 20px
+                justify-content: center
+                flex-direction: column
+                .activity-mainTop-left
+                    flex: auto
+                    h1
+                        letter-spacing: .2em
+                        font-weight: 800
+                        font-size: 2em
+                        margin-bottom: 10px
+                    h2
+                        letter-spacing: .1em
+                        font-weight: 700
+                        font-size: 1.3em
+                    .activity-detail-desktop
+                        display: none
+                .activity-date_desktop
+                    display: none
+            .activity-mainBottom
+                margin: 0 10%
+                padding: 10% 0
+                .activity-mainBottom-picture
+                    .mainBottom-picture_desktop
+                        display: none
+            .picture_mobile
+                display: block
+        .bigpicture_desktop
+            display: none
+        .activity-goBtn
+            position: relative
+            width: 300px
+            height: 300px
+            right: auto
+            bottom: -100px
+            
+    .BackBtn
+        padding-bottom: 5%
