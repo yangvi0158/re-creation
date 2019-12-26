@@ -84,6 +84,7 @@ body
                     width: 0%
                     left: 50%                 
             .navItem-mobile
+                display: none
                 position: fixed
                 top: 0
                 left: 0
@@ -120,6 +121,9 @@ body
                         &:hover
                             color: grey
 
+.open
+    position: fixed !important
+    right: 15px
 .hideNav
     left: 100vw !important
     opacity: 0 !important
@@ -146,4 +150,6 @@ body
     .navRight-desktop
         display: none !important
     .navRight-mobile
-            display: block !important
+        display: block !important
+    .navItem-mobile
+        display: block !important

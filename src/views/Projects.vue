@@ -68,6 +68,9 @@ export default {
       this.showProject = true
       this.workid = id
       this.worknum = num
+      window.scrollTo(0, 0)
+      // document.body.srcollTop = 0
+      // document.documentElement.srcollTop = 0
     }
   },
   mounted () {

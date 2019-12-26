@@ -146,6 +146,7 @@ export default {
     openActivity (num) {
       this.showActivity = true
       this.activityNumber = num
+      window.scrollTo(0, 0)
     }
   },
   mounted () {
