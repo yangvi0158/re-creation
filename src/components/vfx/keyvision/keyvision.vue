@@ -20,6 +20,12 @@
 import ball from './ball.vue'
 
 export default {
+  props: {
+    speed: {
+      type: Number,
+      default: 100
+    }
+  },
   components: {
     ball
   },
@@ -39,7 +45,7 @@ export default {
           me.targetComplete = 1
           me.$refs['mesh'].style.opacity = 1
         } else me.$refs['c' + i].style.transform = 'scale(1) translate(0,0)'
-      }, 100 * Math.pow(i, 1.4))
+      }, me.speed * Math.pow(i, 1.4))
     }
   },
   destroyed () {
