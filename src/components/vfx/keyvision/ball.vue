@@ -9,13 +9,26 @@
 <script>
 import ball from './ball.js'
 export default {
+  props: {
+    complete: {
+      default: 1,
+      type: Number
+    },
+    targetComplete: {
+      default: 1,
+      type: Number
+    }
+  },
   data () {
     return {
       handler: null
     }
   },
   mounted () {
-    this.handler = ball.setup(this.$refs['vfx-keyvision-ball_canvas'])
+    this.handler = ball.setup(
+      this.$refs['vfx-keyvision-ball_canvas'],
+      this
+    )
   },
   destroyed () {
     this.handler.destroy()

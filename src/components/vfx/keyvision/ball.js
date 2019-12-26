@@ -7,7 +7,7 @@ import textureNoise from './noise.jpg'
  *
  * @param {HTMLCanvasElement} canvas
  */
-function setup (canvas) {
+function setup (canvas, app) {
   let loader = new TextureLoader()
   let textureBallObj = loader.load(textureBall)
   let textureNoiseObj = loader.load(textureNoise)
@@ -27,8 +27,7 @@ function setup (canvas) {
       noise: new Uniform(textureNoiseObj),
       iResolution: new Uniform(new Vector2(500, 500)),
       iTime: new Uniform(0),
-      complete: new Uniform(0)
-
+      complete: new Uniform(app.complete)
     }
   })
 
@@ -77,7 +76,7 @@ function setup (canvas) {
     shader.uniforms.p1.value.x += (x - shader.uniforms.p1.value.x) * (0.05 * pz + (1 - pz) * 0.4)
     shader.uniforms.p1.value.y += (y - shader.uniforms.p1.value.y) * (0.05 * pz + (1 - pz) * 0.4)
     shader.uniforms.p1.value.z += (z - shader.uniforms.p1.value.z) * 0.03
-    shader.uniforms.complete.value += (1 - shader.uniforms.complete.value) * 0.03
+    shader.uniforms.complete.value += (app.targetComplete - shader.uniforms.complete.value) * 0.03
 
     shader.uniforms.iTime.value = (timenow / 15000 + offset) % 1
     // shader.needsUpdate = true
