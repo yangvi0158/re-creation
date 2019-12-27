@@ -8,8 +8,8 @@
       <img ref="c3" src="./images/c3@2x-min.png" class="vfx-keyvision_c3" alt />
       <img ref="c4" src="./images/c4@2x-min.png" class="vfx-keyvision_c4" alt />
       <img ref="c5" src="./images/c5@2x-min.png" class="vfx-keyvision_c5" alt />
-      <img ref="c6_c" src="./images/c6@2x-min.png" class="vfx-keyvision_c6" alt />
-      <div ref="c6" class="vfx-keyvision_ball">
+      <img ref="c6" src="./images/c6@2x-min.png" class="vfx-keyvision_c6" alt />
+      <div ref="c6_c" class="vfx-keyvision_ball">
         <ball :complete="0" :targetComplete="targetComplete"></ball>
       </div>
     </div>
@@ -32,19 +32,32 @@ export default {
   data () {
     return {
       run: null,
-      targetComplete: 0
+      targetComplete: 0,
+      lag: false
     }
   },
-
+  computed: {
+    mobile () {
+      return window.innerWidth <= 600
+    }
+  },
   mounted () {
     var me = this
     for (let i = 1; i <= 6; i++) {
       setTimeout(() => {
-        me.$refs['c' + i].style.opacity = 1
         if (i === 6) {
-          me.targetComplete = 1
+          if (!me.mobile) {
+            me.targetComplete = 1
+            me.$refs['c6_c'].style.opacity = 1
+          } else {
+            me.$refs['c6'].style.opacity = 1
+            me.lag = true
+          }
           me.$refs['mesh'].style.opacity = 1
-        } else me.$refs['c' + i].style.transform = 'scale(1) translate(0,0)'
+        } else {
+          me.$refs['c' + i].style.opacity = 1
+          me.$refs['c' + i].style.transform = 'scale(1) translate(0,0)'
+        }
       }, me.speed * Math.pow(i, 1.4))
     }
   },
@@ -58,6 +71,12 @@ export default {
 .vfx-keyvision_main {
   position: relative;
   margin: auto;
+
+  transform: translate(50px, -20px);
+  @media screen and (max-width: 600px) {
+    transform: scale(1, -1) rotate(-90deg);
+  }
+
   /* transform: translate(0, -50%) */
 }
 
@@ -88,6 +107,10 @@ export default {
 
   opacity: 0;
   transition: opacity 2s;
+
+  @media screen and (max-width: 600px) {
+    transform: translate(-8.75%, -6.25%) rotate(90deg) scale(1, -1) ;
+  }
 }
 
 .vfx-keyvision_c1 {
@@ -131,14 +154,14 @@ export default {
   left: -3%;
   width: 62.5%;
 
-  opacity: 0;
+  // opacity: 0;
 }
 
 @for $i from 1 through 6 {
   .vfx-keyvision_c#{$i} {
     opacity: 0;
     transition: opacity 1s;
-    transform: scale(0);
+    // transform: scale(0);
   }
 }
 

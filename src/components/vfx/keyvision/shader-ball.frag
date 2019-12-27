@@ -4,6 +4,7 @@
 uniform vec2 iResolution;
 uniform float iTime;
 uniform float complete;
+uniform float mobile;
 uniform vec3 p1;
 uniform vec3 p2;
 
@@ -80,6 +81,7 @@ float heightMapWithMouse(vec2 p){
 
 vec3 normalMap(vec3 normal){
     vec2 p = normalize(normal).xy*.5+.5;
+    if(mobile>0.5) p =vec2(0,0);
     return texture2D(texture, p).rgb;
 }
 
