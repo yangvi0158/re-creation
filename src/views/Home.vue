@@ -1,14 +1,23 @@
 <template>
   <div class="home">
     <div class="keyvision">
-      <keyvision></keyvision>
+      <keyvision>
+        <p>text here</p>
+        <p>text here</p>
+      </keyvision>
     </div>
     <div class="exhibition_info-desktop">
       <div class="info info-left">
-        <p><span>2020.01.03-01.08</span><br>北科大藝文中心 校內展</p>
+        <p>
+          <span>2020.01.03-01.08</span>
+          <br />北科大藝文中心 校內展
+        </p>
       </div>
       <div class="info">
-        <p><span>2020.01.12-01.19</span><br>剝皮寮歷史街區 校外展</p>
+        <p>
+          <span>2020.01.12-01.19</span>
+          <br />剝皮寮歷史街區 校外展
+        </p>
       </div>
     </div>
     <div class="exhibition_info-mobile">

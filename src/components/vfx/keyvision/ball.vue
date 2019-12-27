@@ -21,17 +21,21 @@ export default {
   },
   data () {
     return {
-      handler: null
+      handler: null,
+      lag: false
     }
   },
   mounted () {
-    this.handler = ball.setup(
-      this.$refs['vfx-keyvision-ball_canvas'],
-      this
-    )
+    this.handler = ball.setup(this.$refs['vfx-keyvision-ball_canvas'], this)
   },
   destroyed () {
     this.handler.destroy()
+  },
+  watch: {
+    lag () {
+      console.log('its lag')
+      this.$emit('lag')
+    }
   }
 }
 </script>

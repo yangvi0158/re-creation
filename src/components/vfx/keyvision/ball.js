@@ -63,12 +63,10 @@ function setup (canvas, app) {
     let timenow = new Date().getTime()
     if (timepre != null) {
       let delta = timenow - timepre
-      if (delta > 40) lag++
-      if (lag > 20) {
+      if (delta > 45) lag++
+      if (lag > 10) {
         run = false
         app.lag = true
-        app.$refs['c6'].style.opacity = 1
-        app.$refs['c6_c'].style.opacity = 0
 
         console.log('too lag, disable vfx')
       }

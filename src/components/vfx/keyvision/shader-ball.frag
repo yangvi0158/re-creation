@@ -79,10 +79,10 @@ float heightMapWithMouse(vec2 p){
 }
 
 
-vec3 normalMap(vec3 normal){
+vec4 normalMap(vec3 normal){
     vec2 p = normalize(normal).xy*.5+.5;
-    if(mobile>0.5) p =vec2(0,0);
-    return texture2D(texture, p).rgb;
+    vec4 r = texture2D(texture, p).rgba;
+    return r;
 }
 
 
@@ -108,7 +108,9 @@ void main() {
         vec3(0, 1, dy)
     ));
 
-    vec3 color = vec3(normalMap(normal)) +0.6 * (texture2D(noise, (gl_FragCoord.xy/iResolution-0.5)*(1.0-height*0.3)+0.5).rgb-0.5);
+    vec4 normalMapped = normalMap(normal) ;
+
+    vec3 color = vec3(normalMapped.rgb)+0.6 * (texture2D(noise, (gl_FragCoord.xy/iResolution-0.5)*(1.0-height*0.3)+0.5).rgb-0.5);
     color*=ball;
     // color = normal*ball;
     gl_FragColor = vec4(color,ball);
