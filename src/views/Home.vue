@@ -2,8 +2,10 @@
   <div class="home">
     <div class="keyvision">
       <keyvision>
-        <p>text here</p>
-        <p>text here</p>
+        <p>國立臺北科技大學 文化事業發展系</p>
+        <p>105級學生畢業展</p>
+        <p>Taipei Tech Cultural Vacation Development</p>
+        <p>2020 Graduation Exibition</p>
       </keyvision>
     </div>
     <div class="exhibition_info-desktop">
