@@ -25,7 +25,7 @@
           'vfx-keyvisual_show': show && !(lag||mobile)
         }"
         >
-          <ball ref="c6_cc" :complete="0" v-on:lag="lagreport" :targetComplete="targetComplete"></ball>
+          <ball ref="c6_cc" :complete="0" v-on:lag="lagreport" :animate="0.03" :targetComplete="targetComplete"></ball>
         </div>
         <img ref="c7" src="./images/keytext.png" class="vfx-keyvision_c7" :hidden="mobile" alt />
         <div ref="c8" class="vfx-keyvision_c8" :hidden="mobile">

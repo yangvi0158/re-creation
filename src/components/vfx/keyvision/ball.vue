@@ -17,6 +17,10 @@ export default {
     targetComplete: {
       default: 1,
       type: Number
+    },
+    animate: {
+      default: 1,
+      type: Number
     }
   },
   data () {
