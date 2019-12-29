@@ -11,8 +11,8 @@
         <div class="activity-card-top">
           <div class="activity-card-top-left">
             <p>14:00-15:30</p>
-            <h3 style="letterSpacing: .1em">Show Time</h3>
-            <p>談新時代的文化推廣與包裝行銷</p>
+            <h3 style="letterSpacing: .1em">我，為夢想而生的人</h3>
+            <p>這是一個追夢的故事</p>
             <div class="activity-card-address">
               <img src="@/assets/img/activities/dot.png">
               剝皮寮歷史街區13號展間

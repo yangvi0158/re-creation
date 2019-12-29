@@ -93,13 +93,7 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
-                },
-                {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
-                },
-                {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work1/泛著血光/1.jpg"
                 }
             ]
         },
@@ -366,13 +360,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/立麗/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/立麗/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/立麗/3.jpg"
                 }
             ]
         },
@@ -483,7 +477,7 @@
             "id": "work19",
             "title": "牽豬哥",
             "subtitle": "KANDIGO",
-            "projectInfo": "在很久很久以前，有一個沙豬王國。王國裡面的公豬很會賺錢，買了豪華的豬舍、豬飼料以及豪華的豬豬奢侈品之後，卻發現自己還是孤零零的，沒有母豬相陪。於是，這一群寂寞的公豬們打開電視，轉到了傳說中的「豬豬情緣」頻道！豬豬情緣為了滿足公豬們各種癖好，網羅了各式各樣不同的母豬。玩家在遊戲中將扮演公豬們，朝成為最幸福的公豬方向邁進吧！在很久很久以前，有一個沙豬王國。王國裡面的公豬很會賺錢，買了豪華的豬舍、豬飼料以及豪華的豬豬奢侈品之後，卻發現自己還是孤零零的，沒有母豬相陪。於是，這一群寂寞的公豬們打開電視，轉到了傳說中的「豬豬情緣」頻道！豬豬情緣為了滿足公豬們各種癖好，網羅了各式各樣不同的母豬。玩家在遊戲中將扮演公豬們，朝成為最幸福的公豬方向邁進吧！",
+            "projectInfo": "在很久很久以前，有一個沙豬王國。王國裡面的公豬很會賺錢，買了豪華的豬舍、豬飼料以及豪華的豬豬奢侈品之後，卻發現自己還是孤零零的，沒有母豬相陪。於是，這一群寂寞的公豬們打開電視，轉到了傳說中的「豬豬情緣」頻道！豬豬情緣為了滿足公豬們各種癖好，網羅了各式各樣不同的母豬。玩家在遊戲中將扮演公豬們，朝成為最幸福的公豬方向邁進吧！",
             "author": [
                 {
                     "name": "曾一修",
@@ -494,12 +488,6 @@
             "photo": [
                 {
                     "imgUrl": "./img/projects/work2/牽豬哥/1.jpg"
-                },
-                {
-                    "imgUrl": "./img/projects/work2/牽豬哥/2.jpg"
-                },
-                {
-                    "imgUrl": "./img/projects/work2/牽豬哥/3.jpg"
                 }
             ]
         },
@@ -517,13 +505,13 @@
             ],
             "photo": [
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/泡泡麵/1.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/泡泡麵/2.jpg"
                 },
                 {
-                    "imgUrl": "./img/projects/work1/work1_1.jpg"
+                    "imgUrl": "./img/projects/work2/泡泡麵/3.jpg"
                 }
             ]
         },
@@ -835,12 +823,14 @@
                 {
                     "name": "曾靜揚",
                     "email": "shizuka201623@gmail.com",
-                    "img": "./img/projects/work4/鼓樂宣禧/author.jpg"
+                    "img": "./img/projects/work4/鼓樂宣禧/author.jpg",
+                    "website": "https://youtu.be/AEhz9eLHJ5A"
                 },
                 {
                     "name": "張廷",
                     "email": "xoxo93148@gmail.com",
-                    "img": "./img/projects/work4/鼓樂宣禧/author2.jpg"
+                    "img": "./img/projects/work4/鼓樂宣禧/author2.jpg",
+                    "website": "https://youtu.be/AEhz9eLHJ5A"
                 }
             ],
             "photo": [

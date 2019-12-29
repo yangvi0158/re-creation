@@ -36,6 +36,7 @@
       <router-view/>
     </transition>
     <div class="fullPage-Nav"></div>
+    <div id="loading" :class="{'showLoad': isLoad}"></div>
   </div>
 </template>
 
@@ -51,8 +52,15 @@ export default {
   },
   data () {
     return {
-      clickNav: false
+      clickNav: false,
+      isLoad: true
     }
+  },
+  mounted () {
+    let vm = this
+    setTimeout(() => {
+      vm.isLoad = false
+    }, 3000)
   }
 }
 </script>

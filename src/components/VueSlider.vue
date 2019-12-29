@@ -13,7 +13,7 @@
 
 <style>
 .swiper-container ,.swiper-container-initialized ,.swiper-container-horizontal{
-  background-color: transparent;
+  background-color: white;
 }
 .swiper-wrapper{
   width: 40vw;
@@ -29,7 +29,7 @@
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
-  background-color: transparent;
+  background-color: white;
 }
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
   bottom: 50px;
@@ -47,12 +47,14 @@
   z-index: 10;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   .swiper-slide{
     height: auto;
+    background-color: transparent;
   }
   .swiper-wrapper{
     width: 100vw;
+    background-color: transparent;
   }
 }
 </style>

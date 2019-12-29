@@ -6,9 +6,13 @@
     background-color: white
     z-index: 1000
     //border-top: $border
+    overflow: hidden
     +flexbox(flex-start,none,row)
     .workLeft
         flex: 6
+        background-repeat: no-repeat
+        background-position: right
+        background-size: contain
         .workMain
             padding: 8% 12%
             
@@ -64,10 +68,11 @@
         margin-left: 10px
         font-family: 'Tenor Sans'
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 900px)
     .work
         height: auto
         min-height: 100vh
+        overflow: auto
         flex-direction: column !important
         .workLeft
             flex: auto

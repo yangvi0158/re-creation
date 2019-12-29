@@ -54,14 +54,15 @@
       <img class="cross" src="@/assets/img/activities/cross.png" @click="showbigPicture = false">
       <img :src="bigUrl">
     </div>
-    <div class="activity-goBtn">
+    <a class="activity-goBtn" :href="lectureData[activityNumber].activityUrl" target="_blank">
       <ball></ball>
-    </div>
+      <p><span>GO</span><br>報名去</p>
+    </a>
   </div>
 </template>
 <script>
 import axios from 'axios'
-import ball from '@/components/vfx/keyvision/keyvision.vue'
+import ball from '@/components/vfx/keyvision/ball.vue'
 import slider from '@/components/VueSlider_activity.vue'
 export default {
   name: 'activity',

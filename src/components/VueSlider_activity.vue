@@ -11,7 +11,7 @@
   </md-card>
 </template>
 
-<style>
+<style scoped>
 .swiper-container ,.swiper-container-initialized ,.swiper-container-horizontal{
   background-color: transparent;
 }

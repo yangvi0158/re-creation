@@ -1,6 +1,6 @@
 <template>
   <div class="work">
-    <div class="workLeft">
+    <div class="workLeft" style="backgroundImage: url('@/assets/img/work/人人之間.svg')">
       <div class="BackBtn">
         <img src="@/assets/img/logo.png" @click="closeProject"><div></div><p>Back</p>
       </div>
