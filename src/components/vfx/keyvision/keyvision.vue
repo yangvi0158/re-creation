@@ -107,8 +107,10 @@ export default {
 
   transform: translate(50px, -20px);
   @media screen and (max-width: 600px) {
-    transform: scale(1, -1) rotate(-90deg);
+    transform: scale(1, -1) rotate(-90deg) translate(-50px, 0px);
   }
+
+  // transition: transform 1s;
 
   /* transform: translate(0, -50%) */
 }
@@ -196,16 +198,16 @@ export default {
 
 .vfx-keyvision_c7 {
   position: absolute;
-  top: 30%;
-  left: 10%;
-  width: 20%;
+  top: 31%;
+  left: 6%;
+  width: 22%;
   // opacity: 0;
 }
 
 .vfx-keyvision_c8 {
   position: absolute;
-  top: 40%;
-  left: 32%;
+  top: 39%;
+  left: 31%;
 
   // opacity: 0;
 }

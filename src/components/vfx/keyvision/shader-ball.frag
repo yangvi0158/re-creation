@@ -75,7 +75,9 @@ float heightMapWithMouse(vec2 p){
     float dh = ((sin(mol*3.+iTime*pi*-20.0)+1.0)/(mol*mol+2.0))*0.2*p1.z;
     
     h=heightMap(p-(p)*dh)-dh;
-    return sqrt(h);
+    if(h>0.0) h=sqrt(h);
+    
+    return h;
 }
 
 
