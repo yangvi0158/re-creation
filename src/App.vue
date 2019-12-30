@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <div class="loading">
+      <div class="loading-circle"></div>
+    </div>
     <background></background>
 
     <div class="nav">
@@ -36,7 +39,6 @@
       <router-view/>
     </transition>
     <div class="fullPage-Nav"></div>
-    <div id="loading" :class="{'showLoad': isLoad}"></div>
   </div>
 </template>
 
@@ -58,9 +60,18 @@ export default {
   },
   mounted () {
     let vm = this
-    setTimeout(() => {
+    setTimeout(function () {
       vm.isLoad = false
-    }, 3000)
+    }, 5000)
+  },
+  watch: {
+    $route () {
+      let vm = this
+      vm.isLoad = true
+      setTimeout(function () {
+        vm.isLoad = false
+      }, 5000)
+    }
   }
 }
 </script>

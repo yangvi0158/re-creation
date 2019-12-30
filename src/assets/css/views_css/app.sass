@@ -121,22 +121,37 @@ body
                         &:hover
                             color: grey
 
-#loading
+.loading
     width: 100vw
     height: 100vh
-    transition: .5s
-    opacity: 0
-    display: none
     left: 0
     top: 0
     position: absolute
     z-index: 5000
     background-color: pink
-.showLoad
-    opacity: 1 !important
-    display: block !important
-    transition: .5s
+    animation: loadAnimation 3s forwards
+    +flexbox(center, center)
+@keyframes loadAnimation
+    0%
+        opacity: 1
+    75%
+        opacity: 1
+    100%
+        opacity: 0
+        display: none
+        visibility: hidden
 
+.loading-circle
+    width: 50px
+    height: 50px
+    border-radius: 50%
+    border: solid 1px white
+    animation: loadCircle .5s infinity alternamte
+@keyframes loadCircle
+    0%
+        transform: translateY(-50px)
+    100%
+        transform: translateY(050px)
     
 .open
     position: fixed !important

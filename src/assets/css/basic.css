@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,500,600,700,900|Tenor+Sans&display=swap");
+* {
+  font-family: 'Noto Serif TC', 'Tenor Sans',sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=basic.css.map */

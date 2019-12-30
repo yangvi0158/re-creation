@@ -3,6 +3,7 @@ import fragmentShader from './shader-ball.frag'
 import vertexShader from './shader.vert'
 import textureBall from './gradient_ball.jpg'
 import textureNoise from './noise.jpg'
+
 /**
  *
  * @param {HTMLCanvasElement} canvas
@@ -11,6 +12,7 @@ function setup (canvas, app) {
   let loader = new TextureLoader()
   let textureBallObj = loader.load(textureBall)
   let textureNoiseObj = loader.load(textureNoise)
+
   console.log(textureBallObj)
   let run = true
   let renderer = new WebGLRenderer({ canvas, alpha: true })
@@ -27,9 +29,16 @@ function setup (canvas, app) {
       noise: new Uniform(textureNoiseObj),
       iResolution: new Uniform(new Vector2(500, 500)),
       iTime: new Uniform(0),
-      complete: new Uniform(app.complete)
+      complete: new Uniform(app.complete),
+      mobile: new Uniform(0)
     }
   })
+
+  let loaded = false
+
+  loader.manager.onLoad = function () {
+    loaded = true
+  }
 
   let plane = new Mesh(
     new PlaneGeometry(2, 2),
@@ -62,21 +71,27 @@ function setup (canvas, app) {
     let timenow = new Date().getTime()
     if (timepre != null) {
       let delta = timenow - timepre
-      if (delta > 40) lag++
-      if (lag > 50) {
+      if (delta > 45) lag++
+      if (lag > 10) {
         run = false
+        app.lag = true
+
         console.log('too lag, disable vfx')
       }
     }
     timepre = timenow
     if (run) requestAnimationFrame(update)
     else return
+
     resize()
+    if (app.lag) return
     let pz = shader.uniforms.p1.value.z
     shader.uniforms.p1.value.x += (x - shader.uniforms.p1.value.x) * (0.05 * pz + (1 - pz) * 0.4)
     shader.uniforms.p1.value.y += (y - shader.uniforms.p1.value.y) * (0.05 * pz + (1 - pz) * 0.4)
     shader.uniforms.p1.value.z += (z - shader.uniforms.p1.value.z) * 0.03
-    shader.uniforms.complete.value += (app.targetComplete - shader.uniforms.complete.value) * 0.03
+    shader.uniforms.complete.value += ((loaded ? app.targetComplete : 0) - shader.uniforms.complete.value) * app.animate
+    if (app.mobile) shader.uniforms.mobile.value = 1
+    else shader.uniforms.mobile.value = 0
 
     shader.uniforms.iTime.value = (timenow / 15000 + offset) % 1
     // shader.needsUpdate = true

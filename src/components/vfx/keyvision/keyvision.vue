@@ -1,18 +1,40 @@
 <template>
-  <div class="vfx-keyvision_main">
-    <img class="vfx-keyvision_backupimg" src="@/assets/img/home.png" />
-    <div class="vfx-keyvision_content">
-      <img ref="mesh" src="./images/mesh@2x-min.png" class="vfx-keyvision_mesh" alt />
-      <img ref="c1" src="./images/c1@2x-min.png" class="vfx-keyvision_c1" alt />
-      <img ref="c2" src="./images/c2@2x-min.png" class="vfx-keyvision_c2" alt />
-      <img ref="c3" src="./images/c3@2x-min.png" class="vfx-keyvision_c3" alt />
-      <img ref="c4" src="./images/c4@2x-min.png" class="vfx-keyvision_c4" alt />
-      <img ref="c5" src="./images/c5@2x-min.png" class="vfx-keyvision_c5" alt />
-      <img ref="c6_c" src="./images/c6@2x-min.png" class="vfx-keyvision_c6" alt />
-      <div ref="c6" class="vfx-keyvision_ball">
-        <ball :complete="0" :targetComplete="targetComplete"></ball>
+  <div>
+    <div class="vfx-keyvision_main">
+      <img class="vfx-keyvision_backupimg" src="@/assets/img/home.png" />
+      <div class="vfx-keyvision_content">
+        <img ref="mesh" src="./images/mesh@2x-min.png" class="vfx-keyvision_mesh" alt />
+        <img ref="c1" src="./images/c1@2x-min.png" class="vfx-keyvision_c1" alt />
+        <img ref="c2" src="./images/c2@2x-min.png" class="vfx-keyvision_c2" alt />
+        <img ref="c3" src="./images/c3@2x-min.png" class="vfx-keyvision_c3" alt />
+        <img ref="c4" src="./images/c4@2x-min.png" class="vfx-keyvision_c4" alt />
+        <img ref="c5" src="./images/c5@2x-min.png" class="vfx-keyvision_c5" alt />
+        <img
+          ref="c6"
+          src="./images/c6@2x-min.png"
+          :class="{
+          'vfx-keyvision_c6': true,
+          'vfx-keyvisual_show': show && (lag||mobile)
+        }"
+          alt
+        />
+        <div
+          ref="c6_c"
+          :class="{
+          'vfx-keyvision_ball': true,
+          'vfx-keyvisual_show': show && !(lag||mobile)
+        }"
+        >
+          <ball ref="c6_cc" :complete="0" v-on:lag="lagreport" :animate="0.03" :targetComplete="targetComplete"></ball>
+        </div>
+        <img ref="c7" src="./images/keytext.png" class="vfx-keyvision_c7" :hidden="mobile" alt />
+        <div ref="c8" class="vfx-keyvision_c8" :hidden="mobile">
+
+          <slot></slot>
+        </div>
       </div>
     </div>
+    <img ref="c7_m" src="./images/keytext.png" class="vfx-keyvision_c7_m" :hidden="!mobile" alt />
   </div>
 </template>
 
@@ -29,27 +51,51 @@ export default {
   components: {
     ball
   },
+
   data () {
     return {
       run: null,
-      targetComplete: 0
+      targetComplete: 0,
+      lag: false,
+      show: false,
+      mobile: false
+    }
+  },
+
+  methods: {
+    lagreport () {
+      this.lag = this.$refs['c6_cc'].lag
+      console.log('yes lag', this.lag)
+    },
+    updateMobile () {
+      this.mobile = window.innerWidth <= 600
     }
   },
 
   mounted () {
+    this.updateMobile()
     var me = this
-    for (let i = 1; i <= 6; i++) {
+    for (let i = 1; i <= 8; i++) {
       setTimeout(() => {
-        me.$refs['c' + i].style.opacity = 1
         if (i === 6) {
+          me.show = true
           me.targetComplete = 1
+          if (me.mobile) {
+            me.lag = true
+            me.$refs['c6_cc'].lag = true
+          }
           me.$refs['mesh'].style.opacity = 1
-        } else me.$refs['c' + i].style.transform = 'scale(1) translate(0,0)'
-      }, me.speed * Math.pow(i, 1.4))
+        } else {
+          me.$refs['c' + i].classList.add('vfx-keyvisual_show')
+        }
+      }, me.speed * Math.pow(i, 1.3))
     }
+    addEventListener('resize', this.updateMobile)
   },
+
   destroyed () {
     clearInterval(this.run)
+    removeEventListener('resize', this.updateMobile)
   }
 }
 </script>
@@ -58,6 +104,12 @@ export default {
 .vfx-keyvision_main {
   position: relative;
   margin: auto;
+
+  transform: translate(50px, -20px);
+  @media screen and (max-width: 600px) {
+    transform: scale(1, -1) rotate(-90deg);
+  }
+
   /* transform: translate(0, -50%) */
 }
 
@@ -88,6 +140,14 @@ export default {
 
   opacity: 0;
   transition: opacity 2s;
+
+  &.vfx-keyvisual_show {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 600px) {
+    transform: translate(-8.75%, -6.25%) rotate(90deg) scale(1, -1);
+  }
 }
 
 .vfx-keyvision_c1 {
@@ -131,14 +191,41 @@ export default {
   left: -3%;
   width: 62.5%;
 
-  opacity: 0;
+  // opacity: 0;
 }
 
-@for $i from 1 through 6 {
+.vfx-keyvision_c7 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 20%;
+  // opacity: 0;
+}
+
+.vfx-keyvision_c8 {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+
+  // opacity: 0;
+}
+
+.vfx-keyvision_c7_m {
+  position: absolute;
+  left: 30px;
+  bottom: 120px;
+  width: 40%;
+}
+
+@for $i from 1 through 8 {
   .vfx-keyvision_c#{$i} {
     opacity: 0;
-    transition: opacity 1s;
-    transform: scale(0);
+    transition: opacity 1s, transform 1s;
+    transform: scale(0.9) translate(0, 30px);
+    &.vfx-keyvisual_show {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
 }
 
