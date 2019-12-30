@@ -25,11 +25,16 @@
           'vfx-keyvisual_show': show && !(lag||mobile)
         }"
         >
-          <ball ref="c6_cc" :complete="0" v-on:lag="lagreport" :animate="0.03" :targetComplete="targetComplete"></ball>
+          <ball
+            ref="c6_cc"
+            :complete="0"
+            v-on:lag="lagreport"
+            :animate="0.03"
+            :targetComplete="targetComplete"
+          ></ball>
         </div>
         <img ref="c7" src="./images/keytext.png" class="vfx-keyvision_c7" :hidden="mobile" alt />
         <div ref="c8" class="vfx-keyvision_c8" :hidden="mobile">
-
           <slot></slot>
         </div>
       </div>
@@ -73,23 +78,27 @@ export default {
   },
 
   mounted () {
-    this.updateMobile()
     var me = this
-    for (let i = 1; i <= 8; i++) {
-      setTimeout(() => {
-        if (i === 6) {
-          me.show = true
-          me.targetComplete = 1
-          if (me.mobile) {
-            me.lag = true
-            me.$refs['c6_cc'].lag = true
+    this.updateMobile()
+    this.$refs['c6_cc'].$on('ready', function () {
+      console.log('ready')
+      me.$emit('ready')
+      for (let i = 1; i <= 8; i++) {
+        setTimeout(() => {
+          if (i === 6) {
+            me.show = true
+            me.targetComplete = 1
+            if (me.mobile) {
+              me.lag = true
+              me.$refs['c6_cc'].lag = true
+            }
+            me.$refs['mesh'].style.opacity = 1
+          } else {
+            me.$refs['c' + i].classList.add('vfx-keyvisual_show')
           }
-          me.$refs['mesh'].style.opacity = 1
-        } else {
-          me.$refs['c' + i].classList.add('vfx-keyvisual_show')
-        }
-      }, me.speed * Math.pow(i, 1.3))
-    }
+        }, me.speed * Math.pow(i, 1.3))
+      }
+    })
     addEventListener('resize', this.updateMobile)
   },
 

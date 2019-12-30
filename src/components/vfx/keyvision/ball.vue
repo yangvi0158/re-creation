@@ -30,7 +30,14 @@ export default {
     }
   },
   mounted () {
-    this.handler = ball.setup(this.$refs['vfx-keyvision-ball_canvas'], this)
+    var me = this
+    this.handler = ball.setup(
+      this.$refs['vfx-keyvision-ball_canvas'],
+      this,
+      function () {
+        me.$emit('ready')
+      }
+    )
   },
   destroyed () {
     this.handler.destroy()
