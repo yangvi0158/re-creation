@@ -62,11 +62,15 @@ export default {
     return {
       clickNav: false,
       isLoad: false,
-      startLoad: true
+      startLoad: false
     }
   },
   mounted () {
     let vm = this
+    // console.log('this.$route.name', this.$route.name)
+    if (this.$route.name !== null) {
+      vm.startLoad = true
+    }
     setTimeout(() => {
       vm.startLoad = false
     }, 3500)
@@ -80,6 +84,7 @@ export default {
           vm.isLoad = false
         }, 3500)
       }
+      // console.log('tofrom', to.name, from.name)
     }
   }
 }
