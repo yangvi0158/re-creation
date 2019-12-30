@@ -1,7 +1,13 @@
 <template>
   <div id="app">
-    <div class="loading">
-      <div class="loading-circle"></div>
+    <div class="loading" :class="{'loadingAni': isLoad, 'loadingAni-start': startLoad}">
+      <span class="loading-text">L</span>
+      <span class="loading-text">O</span>
+      <span class="loading-text">A</span>
+      <span class="loading-text">D</span>
+      <span class="loading-text">I</span>
+      <span class="loading-text">N</span>
+      <span class="loading-text">G</span>
     </div>
     <background></background>
 
@@ -55,22 +61,25 @@ export default {
   data () {
     return {
       clickNav: false,
-      isLoad: true
+      isLoad: false,
+      startLoad: true
     }
   },
   mounted () {
     let vm = this
-    setTimeout(function () {
-      vm.isLoad = false
-    }, 5000)
+    setTimeout(() => {
+      vm.startLoad = false
+    }, 3500)
   },
   watch: {
-    $route () {
-      let vm = this
-      vm.isLoad = true
-      setTimeout(function () {
-        vm.isLoad = false
-      }, 5000)
+    $route (to, from) {
+      if (from.name !== null) {
+        let vm = this
+        vm.isLoad = true
+        setTimeout(() => {
+          vm.isLoad = false
+        }, 3500)
+      }
     }
   }
 }
