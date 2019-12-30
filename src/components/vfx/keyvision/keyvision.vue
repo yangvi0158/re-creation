@@ -110,7 +110,7 @@ export default {
     transform: scale(1, -1) rotate(-90deg) translate(-50px, 0px);
   }
 
-  transition: transform 1s;
+  // transition: transform 1s;
 
   /* transform: translate(0, -50%) */
 }
