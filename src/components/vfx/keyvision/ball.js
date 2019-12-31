@@ -2,18 +2,17 @@ import { Scene, WebGLRenderer, Camera, Mesh, PlaneGeometry, ShaderMaterial, Vect
 import fragmentShader from './shader-ball.frag'
 import vertexShader from './shader.vert'
 import textureBall from './gradient_ball.jpg'
-import textureNoise from './noise.jpg'
+import textureNoise from './noise-min.jpg'
 
 /**
  *
  * @param {HTMLCanvasElement} canvas
  */
-function setup (canvas, app) {
+function setup (canvas, app, onReady) {
   let loader = new TextureLoader()
   let textureBallObj = loader.load(textureBall)
   let textureNoiseObj = loader.load(textureNoise)
 
-  console.log(textureBallObj)
   let run = true
   let renderer = new WebGLRenderer({ canvas, alpha: true })
   renderer.setClearColor(0, 0)
@@ -38,6 +37,7 @@ function setup (canvas, app) {
 
   loader.manager.onLoad = function () {
     loaded = true
+    onReady()
   }
 
   let plane = new Mesh(

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="vfx-keyvision_main">
-      <img class="vfx-keyvision_backupimg" src="@/assets/img/home.png" />
+      <img class="vfx-keyvision_backupimg" src="@/assets/img/home-min.png" />
       <div class="vfx-keyvision_content">
         <img ref="mesh" src="./images/mesh@2x-min.png" class="vfx-keyvision_mesh" alt />
         <img ref="c1" src="./images/c1@2x-min.png" class="vfx-keyvision_c1" alt />
@@ -25,11 +25,16 @@
           'vfx-keyvisual_show': show && !(lag||mobile)
         }"
         >
-          <ball ref="c6_cc" :complete="0" v-on:lag="lagreport" :animate="0.03" :targetComplete="targetComplete"></ball>
+          <ball
+            ref="c6_cc"
+            :complete="0"
+            v-on:lag="lagreport"
+            :animate="0.03"
+            :targetComplete="targetComplete"
+          ></ball>
         </div>
         <img ref="c7" src="./images/keytext.png" class="vfx-keyvision_c7" :hidden="mobile" alt />
         <div ref="c8" class="vfx-keyvision_c8" :hidden="mobile">
-
           <slot></slot>
         </div>
       </div>
@@ -40,6 +45,16 @@
 
 <script>
 import ball from './ball.vue'
+
+function preloadImage (url) {
+  return new Promise(resolve => {
+    const img = new Image()
+    img.onload = function () {
+      resolve()
+    }
+    img.src = url
+  })
+}
 
 export default {
   props: {
@@ -58,7 +73,8 @@ export default {
       targetComplete: 0,
       lag: false,
       show: false,
-      mobile: false
+      mobile: false,
+      imagesPromises: []
     }
   },
 
@@ -73,23 +89,35 @@ export default {
   },
 
   mounted () {
-    this.updateMobile()
     var me = this
-    for (let i = 1; i <= 8; i++) {
-      setTimeout(() => {
-        if (i === 6) {
-          me.show = true
-          me.targetComplete = 1
-          if (me.mobile) {
-            me.lag = true
-            me.$refs['c6_cc'].lag = true
-          }
-          me.$refs['mesh'].style.opacity = 1
-        } else {
-          me.$refs['c' + i].classList.add('vfx-keyvisual_show')
+    Array.from(this.$el.querySelectorAll('img')).map(x => {
+      console.log(x)
+      me.imagesPromises.push(preloadImage(x.src))
+    })
+
+    this.updateMobile()
+    this.$refs['c6_cc'].$on('ready', function () {
+      Promise.all(me.imagesPromises).then(function () {
+        console.log('ready')
+        me.$emit('ready')
+        for (let i = 1; i <= 8; i++) {
+          setTimeout(() => {
+            if (i === 6) {
+              me.show = true
+              me.targetComplete = 1
+              if (me.mobile) {
+                me.lag = true
+                me.$refs['c6_cc'].lag = true
+              }
+              me.$refs['mesh'].style.opacity = 1
+            } else {
+              me.$refs['c' + i].classList.add('vfx-keyvisual_show')
+            }
+          }, me.speed * Math.pow(i, 1.3))
         }
-      }, me.speed * Math.pow(i, 1.3))
-    }
+      })
+    })
+
     addEventListener('resize', this.updateMobile)
   },
 
