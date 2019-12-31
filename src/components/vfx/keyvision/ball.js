@@ -2,7 +2,7 @@ import { Scene, WebGLRenderer, Camera, Mesh, PlaneGeometry, ShaderMaterial, Vect
 import fragmentShader from './shader-ball.frag'
 import vertexShader from './shader.vert'
 import textureBall from './gradient_ball.jpg'
-import textureNoise from './noise.jpg'
+import textureNoise from './noise-min.jpg'
 
 /**
  *
