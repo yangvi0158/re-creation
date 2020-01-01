@@ -85,7 +85,7 @@ export default {
   methods: {
     closeActivity () {
       this.$emit('close-activity')
-      console.log('close!')
+      // console.log('close!')
     },
     showPicture (url) {
       this.showbigPicture = true

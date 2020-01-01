@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    <div class="workRight">
+    <div class="workRight" :style="{width: this.workWidth+'px'}">
       <slider :work-data="workData"></slider>
       <!--img :src="workData[0].photo[0].imgUrl"-->
     </div>
@@ -43,6 +43,7 @@ export default {
   },
   data () {
     return {
+      workWidth: 'auto',
       workid: this.workId,
       worknum: this.workNum,
       projectsData: [],
@@ -56,7 +57,7 @@ export default {
     getWorkData () {
       let vm = this
       this.workData = vm.projectsData.filter((item) => item.id === vm.workid)
-      console.log(this.workData)
+      // console.log(this.workData)
     }
   },
   created () {
@@ -68,6 +69,16 @@ export default {
       console.log(err, '失敗')
     })
   },
+  mounted () {
+    let vm = this
+    if (document.body.clientHeight <= 900) {
+      vm.workWidth = (document.body.clientHeight / 1.238).toFixed(2)
+    }
+    window.onresize = () => {
+      vm.workWidth = (document.body.clientHeight / 1.238).toFixed(2)
+      // console.log('resize!')
+    }
+  },
   watch: {
     workId () {
       this.workid = this.workId
@@ -75,6 +86,7 @@ export default {
     workNum () {
       this.worknum = this.workNum
     }
+
   }
 }
 </script>

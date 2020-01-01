@@ -70,9 +70,11 @@ export default {
     // console.log('this.$route.name', this.$route.name)
     if (this.$route.name !== null) {
       vm.startLoad = true
+      document.body.style.overflow = 'hidden'
     }
     setTimeout(() => {
       vm.startLoad = false
+      document.body.style.overflow = 'auto'
     }, 3500)
   },
   watch: {
@@ -80,8 +82,10 @@ export default {
       if (from.name !== null) {
         let vm = this
         vm.isLoad = true
+        document.body.style.overflow = 'hidden'
         setTimeout(() => {
           vm.isLoad = false
+          document.body.style.overflow = 'auto'
         }, 3500)
       }
       // console.log('tofrom', to.name, from.name)

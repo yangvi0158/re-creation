@@ -80,24 +80,6 @@
             ]
         },
         {
-            "logo": "./img/projects/work1/logos/欸！你家住哪裡.svg",
-            "id": "work4",
-            "title": "泛著血光的自由",
-            "projectInfo": "運用聲音來講述白色恐怖背景下受到不公平對待的政治受難者的故事。",
-            "author": [
-                {
-                    "name": "陳沐昭",
-                    "email": "heman20307@gmail.com",
-                    "img": "./img/projects/work1/泛著血光/author.jpg"
-                }
-            ],
-            "photo": [
-                {
-                    "imgUrl": "./img/projects/work1/泛著血光/1.jpg"
-                }
-            ]
-        },
-        {
             "logo": "./img/projects/work1/logos/遊戲製作.png",
             "id": "work5",
             "title": "遊戲製作",
