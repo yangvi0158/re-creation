@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>web_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="53.9353521%" y1="96.5855622%" x2="53.9353521%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#A2DED7" offset="0%"></stop>
+            <stop stop-color="#F1A3A7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#A2DED7" offset="0%"></stop>
+            <stop stop-color="#F1A3A7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="90.1215202%" y1="0%" x2="90.1215202%" y2="96.5855622%" id="linearGradient-3">
+            <stop stop-color="#A2DED7" offset="0%"></stop>
+            <stop stop-color="#F1A3A7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="79.1144137%" y1="0%" x2="79.1144137%" y2="96.5855622%" id="linearGradient-4">
+            <stop stop-color="#A2DED7" offset="0%"></stop>
+            <stop stop-color="#F1A3A7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="17.2686696%" y1="0%" x2="17.2686696%" y2="96.5855622%" id="linearGradient-5">
+            <stop stop-color="#A2DED7" offset="0%"></stop>
+            <stop stop-color="#F1A3A7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="作品介紹內頁" transform="translate(-673.000000, -718.000000)" fill-rule="nonzero">
+            <g id="web_hover" transform="translate(673.000000, 718.000000)">
+                <circle id="Oval" fill="url(#linearGradient-1)" cx="12" cy="12" r="12"></circle>
+                <rect id="Rectangle" fill="#FFFFFF" x="5" y="7" width="14" height="10"></rect>
+                <rect id="Rectangle" fill="url(#linearGradient-2)" x="6" y="8" width="12" height="2"></rect>
+                <path d="M7.83333333,13.5 L9.3,14.6 C9.5209139,14.7656854 9.56568542,15.0790861 9.4,15.3 C9.23431458,15.5209139 8.9209139,15.5656854 8.7,15.4 L6.7,13.9 C6.43333333,13.7 6.43333333,13.3 6.7,13.1 L8.7,11.6 C8.9209139,11.4343146 9.23431458,11.4790861 9.4,11.7 C9.56568542,11.9209139 9.5209139,12.2343146 9.3,12.4 L7.83333333,13.5 Z" id="Path-3" fill="url(#linearGradient-3)"></path>
+                <path d="M17.3,14.6 C17.5209139,14.7656854 17.5656854,15.0790861 17.4,15.3 C17.2343146,15.5209139 16.9209139,15.5656854 16.7,15.4 L14.7,13.9 C14.4333333,13.7 14.4333333,13.3 14.7,13.1 L16.7,11.6 C16.9209139,11.4343146 17.2343146,11.4790861 17.4,11.7 C17.5656854,11.9209139 17.5209139,12.2343146 17.3,12.4 L15.8333333,13.5 L17.3,14.6 Z" id="Path-3-Copy" fill="url(#linearGradient-4)" transform="translate(16.000015, 13.500000) scale(-1, 1) translate(-16.000015, -13.500000) "></path>
+                <path d="M12.5318354,11.3244383 C12.6287955,11.0658781 12.9170016,10.9348754 13.1755617,11.0318354 C13.4341219,11.1287955 13.5651246,11.4170016 13.4681646,11.6755617 L11.9681646,15.6755617 C11.8712045,15.9341219 11.5829984,16.0651246 11.3244383,15.9681646 C11.0658781,15.8712045 10.9348754,15.5829984 11.0318354,15.3244383 L12.5318354,11.3244383 Z" id="Line" fill="url(#linearGradient-5)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

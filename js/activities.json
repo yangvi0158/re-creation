@@ -1,0 +1,152 @@
+[
+    {
+        "lecture": "我，為夢想而生的人",
+        "subtitle": "這是一個追夢的故事，這也是我的一半人生",
+        "speaker": "Ushow LEE",
+        "detail": {
+            "date": "2020.01.17",
+            "time": "14:00-15:30",
+            "day": "FRI.",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "李依婷/有事文化創意 創辦人"
+        },
+        "dateUrl": "./img/activity/bigdate17.png",
+        "activityUrl": "https://docs.google.com/forms/d/e/1FAIpQLScrDGgtA0EYJC2RQKzyg-50YnxiUaliAfgsMRJ0CZRBRmePVw/viewform",
+        "description": "我是一個在13歲就口出狂言，說要拍電影的人。從不覺得自己有多好的天資或者是能力，只認為自己足夠用心。在大陸和台灣兩地廣告、電視、電影及網紅經濟等方面的一些研究和學習，使我對行業有了一些自己的見解。誰都不知道前方會有什麼，可重要的是不放棄的執著。不管這個世界變成什麼樣，我相信華人文化，不是自說自話。誰不曾追尋，誰不曾被質疑。只希望你回頭看自己，沒有一刻是遲疑。我是Ushow LEE，一名影音創作者。我會講一個追夢的故事，這也是我的一半人生。",
+        "photo": [
+            {
+                "photo_description": "工作照",
+                "smallPhoto_url": "./img/activity/speaker1/speak1_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker1/speak1_l1.jpg"
+            },
+            {
+                "photo_description": "展覽活動",
+                "smallPhoto_url": "./img/activity/speaker1/speak1_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker1/speak1_l2.jpg"
+            }
+        ]
+    },
+    {
+        "lecture": "耳朵的喇叭褲",
+        "subtitle": "重新詮釋舊時代的老物件",
+        "speaker": "林太崴",
+        "detail": {
+            "date": "2020.01.18",
+            "time": "14:00-15:30",
+            "day": "SAT.",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "林太崴/蟲膠唱片達人與收藏家"
+        },
+        "dateUrl": "./img/activity/bigdate18.png",
+        "activityUrl": "https://docs.google.com/forms/d/e/1FAIpQLScrDGgtA0EYJC2RQKzyg-50YnxiUaliAfgsMRJ0CZRBRmePVw/viewform",
+        "description": "為什麼老舊的黑膠唱片會再度回到人們耳邊？它們又是以什麼樣的面貌重新被展示？在新與舊，舊與新來回擺盪的鐘擺間，舊時代的老物件如何穿上重新被摩登化的符碼而復活。",
+        "photo": [
+            {
+                "photo_description": "活動合照",
+                "smallPhoto_url": "./img/activity/speaker2/speak2_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker2/speak2_l1.jpg"
+            },
+            {
+                "photo_description": "節目受訪1",
+                "smallPhoto_url": "./img/activity/speaker2/speak2_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker2/speak2_l2.jpg"
+            },
+            {
+                "photo_description": "節目受訪2",
+                "smallPhoto_url": "./img/activity/speaker2/speak2_s3.jpg",
+                "bigPhoto_url": "./img/activity/speaker2/speak2_l3.jpg"
+            }
+        ]
+    },
+    {
+        "lecture": "文化銀行",
+        "subtitle": "寫下島嶼的文化篇章",
+        "speaker": "邵璦婷",
+        "detail": {
+            "date": "2020.01.19",
+            "time": "14:00-15:30",
+            "day": "SUN.",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "邵璦婷/文化銀行的創辦人"
+        },
+        "dateUrl": "./img/activity/bigdate19.png",
+        "activityUrl": "https://docs.google.com/forms/d/e/1FAIpQLScrDGgtA0EYJC2RQKzyg-50YnxiUaliAfgsMRJ0CZRBRmePVw/viewform",
+        "description": "歡迎來到臺灣的第一間文化銀行，這裡存有不想被遺忘的記憶，以及不甘於被留下的文化標本。",
+        "photo": [
+            {
+                "photo_description": "展覽活動",
+                "smallPhoto_url": "./img/activity/speaker3/speak3_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker3/speak3_l1.jpg"
+            },
+            {
+                "photo_description": "TED演講照",
+                "smallPhoto_url": "./img/activity/speaker3/speak3_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker3/speak3_l2.jpg"
+            }
+        ]
+    },
+    {
+        "lecture": "清香純純",
+        "subtitle": "手繪1930年代臺灣第一女歌手",
+        "speaker": "黃郁婷",
+        "detail": {
+            "date": "2020.01.18",
+            "time": "16:00-17:30",
+            "day": "SAT.",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "黃郁婷/插畫家"
+        },
+        "dateUrl": "./img/activity/bigdate18.png",
+        "activityUrl": "https://docs.google.com/forms/d/18LPQPan37nTSmr4IngbMZULPa4ze6jrFjd74x3HPHHE/viewform?edit_requested=true",
+        "description": "手繪明信片和書籤，教大家如何用身邊最簡單的水性色鉛筆，畫出最專業的漫畫風色彩，讓大家學習如何調色與配色，也讓大家可以動手DIY。",
+        "photo": [
+            {
+                "photo_description": "鄧雨賢與陳君玉",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l1.jpg"
+            },
+            {
+                "photo_description": "四月望雨",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s2.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l2.jpg"
+            },
+            {
+                "photo_description": "悠閒時刻",
+                "smallPhoto_url": "./img/activity/speaker4/speak4_s5.jpg",
+                "bigPhoto_url": "./img/activity/speaker4/speak4_l5.jpg"
+            }
+        ]
+    },
+    {
+        "lecture": "金迷",
+        "subtitle": "傳統廟宇彩繪技法-安金",
+        "speaker": "周孟勳",
+        "detail": {
+            "date": "2020.01.19",
+            "time": "16:00-17:30",
+            "day": "SUN.",
+            "location": "剝皮寮歷史街區 13號展區",
+            "speaker_info": "周孟勳/一個做傳統彩繪的人"
+        },
+        "dateUrl": "./img/activity/bigdate19.png",
+        "activityUrl": "https://docs.google.com/forms/d/18LPQPan37nTSmr4IngbMZULPa4ze6jrFjd74x3HPHHE/viewform?edit_requested=true",
+        "description": "安金的技法在台灣常用於彩繪、寺廟雕刻上。製作上，先在作品表面塗上膠油，待膠油即將全乾之際再貼上金箔紙，並用毛刷輕壓以固定、刷磨亮金箔。藉以讓民眾在一個半小時內就能體驗傳統彩繪技法，還可以帶自己的作品回家紀念。",
+        "photo": [
+            {
+                "photo_description": "傳統彩繪1",
+                "smallPhoto_url": "./img/activity/speaker5/speak5_s1.jpg",
+                "bigPhoto_url": "./img/activity/speaker5/speak5_l1.jpg"
+            },
+            {
+                "photo_description": "傳統彩繪2",
+                "smallPhoto_url": "./img/activity/speaker5/speak5_s3.jpg",
+                "bigPhoto_url": "./img/activity/speaker5/speak5_l3.jpg"
+            },
+            {
+                "photo_description": "傳統彩繪3",
+                "smallPhoto_url": "./img/activity/speaker5/speak5_s5.jpg",
+                "bigPhoto_url": "./img/activity/speaker5/speak5_l5.jpg"
+            }
+        ]
+    }
+]
